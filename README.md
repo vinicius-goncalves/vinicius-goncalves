@@ -7,7 +7,7 @@
 ### Algumas coisas sobre mim...
 - 😀 | Me chamo Vinícius Gonçalves.
 - 🎶 | Gosto de qualquer estilo musical (inclusive aquele que você provavelmente odeia!).
-- 🎬 | Atualmente faço parte do Programa de Colaboradores do YouTube.
+- ![](https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/youtube.png=8x8) | Atualmente faço parte do Programa de Colaboradores do YouTube.
 
 ***
 
