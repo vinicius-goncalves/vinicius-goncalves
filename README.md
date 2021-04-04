@@ -13,7 +13,7 @@
 ***
 
 <details>
-  <summary> Habilidades atuais </summary>
+  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_development_skill_50px.png" align="center" width="35"/> Habilidades atuais </summary>
   
 ### Languages
 
