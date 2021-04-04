@@ -1,4 +1,4 @@
-- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_handshake_50px.png" align="center" width="35"/> Hi there!
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_handshake_50px.png" align="center" width="35"/> Hi there! Conheça meu perfil e algumas coisas sobre mim.
 
 <!--  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=radical) -->
 
