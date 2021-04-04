@@ -5,9 +5,10 @@
 ***
 
 ### Algumas coisas sobre mim...
-- 😀 | Me chamo Vinícius Gonçalves.
-- 🎶 | Gosto de qualquer estilo musical (inclusive aquele que você provavelmente odeia!).
-- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/youtube.png" width="16"/> | Atualmente faço parte do Programa de Colaboradores do YouTube.
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_user_50px.png" width="22"/> | Me chamo Vinícius Gonçalves.
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_music_50px.png" width="22"/> | Gosto de qualquer estilo musical (inclusive aquele que você provavelmente odeia!).
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_homer_simpson_50px.png" width="22"/> | Meu desenho favorito, sem dúvidas, é os The Simpsons!
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_play_button_50px.png" width="22"/> | Atualmente faço parte do Programa de Colaboradores do YouTube.
 
 ***
 
