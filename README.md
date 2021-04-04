@@ -25,10 +25,5 @@
 
 <!-- Images (badge) from https://github.com/Ileriayo/markdown-badges -->
 <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
-
-- ***Por enquanto, apenas essas 😛***
-
 </details>
-
-**Vinícius Gonçalves**
   
