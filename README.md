@@ -1,3 +1,4 @@
+<!-- Idk how to use a lot of md... -->
 - <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_handshake_50px.png" align="center" width="35"/> Hi there! Conheça meu perfil e algumas coisas sobre mim.
 
 <!--  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=radical) -->
@@ -19,7 +20,7 @@
 
 <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/> 
 
-<!-- For later <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> -->
+<!-- For later (too later...) <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> -->
 
 ### Tools <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_database_administrator_50px.png" align="center" width="35"/>
 
