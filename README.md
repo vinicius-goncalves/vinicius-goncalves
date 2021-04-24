@@ -32,9 +32,9 @@
 ***
 
 <details>
-  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_development_skill_50px.png" align="center" width="35"/> Referidos </summary>
+  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_info_50px.png" align="center" width="35"/> Referidos </summary>
   
-### Jogos <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35">
+### Games <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35">
 
 - [Dishonored - Steam](https://store.steampowered.com/app/205100/Dishonored/)
 - [Dishonored - Wikipedia](https://en.wikipedia.org/wiki/Dishonored)
