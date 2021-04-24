@@ -34,15 +34,18 @@
 <details>
   <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_info_50px.png" align="center" width="35"/> Referidos </summary>
   
-### Games <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35">
+# Games <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35">
 
+## Steam <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_steam_50px.png" align="center" width="35"/>
 - [Dishonored - Steam](https://store.steampowered.com/app/205100/Dishonored/)
-- [Dishonored - Wikipedia](https://en.wikipedia.org/wiki/Dishonored)
 - [Bioshock - Steam](https://store.steampowered.com/app/7670/BioShock/)
-- [Bioshock - Wikipedia](https://en.wikipedia.org/wiki/BioShock)
 - [Left 4 Dead - Steam](https://store.steampowered.com/app/500/Left_4_Dead/)
-- [Left 4 Dead - Wikipedia](https://en.wikipedia.org/wiki/Left_4_Dead)
 - [Assassin's Creed IV - Steam](https://store.steampowered.com/app/242050/Assassins_Creed_IV_Black_Flag/)
+
+## Wikipedia <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_information_50px.png" align="center" width="35"/>
+- [Dishonored - Wikipedia](https://en.wikipedia.org/wiki/Dishonored)
+- [Bioshock - Wikipedia](https://en.wikipedia.org/wiki/BioShock)
+- [Left 4 Dead - Wikipedia](https://en.wikipedia.org/wiki/Left_4_Dead)
 - [Assassin's Creed IV - Wikipedia](https://en.wikipedia.org/wiki/Assassin%27s_Creed_IV:_Black_Flag)
 
 </details>
