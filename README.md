@@ -7,7 +7,8 @@
 
 ### Algumas coisas sobre mim...
 - <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_user_50px.png" align="center" width="35"/> | Me chamo Vinícius Gonçalves.
-- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_music_50px.png" align="center" width="35"/> | Gosto de qualquer estilo musical (inclusive aquele que você provavelmente odeia!).
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_music_50px.png" align="center" width="35"/> | Gosto de qualquer estilo musical (inclusive aquele que você talvez você odeie).
+- <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35"/> | Meus jogos favoritos são Dishonored, Bioshock, Left 4 Dead (e todos seus relacionados) e também Assassin's Creed 4. Não posso esquecer Minecraft também.
 - <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_homer_simpson_50px.png" align="center" width="35"/> | Meu desenho favorito, sem dúvidas, é os [The Simpsons](https://en.wikipedia.org/wiki/The_Simpsons)!
 - <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_play_button_50px.png" align="center" width="35"/> | Atualmente faço parte do [Programa de Colaboradores do YouTube](https://contributors.youtube.com/).
 
