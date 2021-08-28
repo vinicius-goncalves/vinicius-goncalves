@@ -55,9 +55,9 @@
 <details>
   <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_contacts_50px_2.png?raw=true" align="center" width="35"/>Contato</summary>
   
-### Contato
-- [Linkedin](https://www.linkedin.com/in/perfil-vinicius-goncalves/)
-- <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>[]
+<br>
+  
+- <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>[https://www.linkedin.com/in/perfil-vinicius-goncalves/]
 </details>
   
  <!-- Icons by Pichon/Icons8 https://icons8.com/ - Free icons -->
