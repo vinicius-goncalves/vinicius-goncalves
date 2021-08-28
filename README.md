@@ -15,7 +15,7 @@
 ***
 
 <details>
-  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_development_skill_50px.png" align="center" width="35"/> Habilidades atuais </summary>
+  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_development_skill_50px.png" align="center" width="35"/> Habilidades </summary>
   
 ### Languages <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_source_code_50px.png" align="center" width="35">
 
@@ -25,8 +25,24 @@
 
 ### Tools <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_database_administrator_50px.png" align="center" width="35"/>
 
-<!-- Images (badge) from https://github.com/Ileriayo/markdown-badges -->
-<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
+<!-- Images (badge) by https://github.com/Ileriayo/markdown-badges -->
+<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img alt="Github" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+  
+### Softwares <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_workspace_50px.png" align="center" width="35"/>
+*Mais utilizado ⇢ IntelliJ IDEA* <br>
+  
+<img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/> 
+  <img alt="Eclipse" src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)"/> 
+  <img alt="NetBeans" src="https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/> 
+  <img alt="Sublime Text" src="https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important"/> 
+  <img alt="Visual Code Studio" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> 
+  <img alt="Adobe Photoshop" src="https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white"/> 
+  <img alt="Gimp" src="https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF"/>
+  
+### Sistemas Operacionais <img alt="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_windows_client_50px.png?raw=true"/ align="center" width="35"/>
+  
+<img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
+  
 </details>
 
 ***
