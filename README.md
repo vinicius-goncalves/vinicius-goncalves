@@ -34,7 +34,7 @@
 <details>
   <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_info_50px.png" align="center" width="35"/> Referidos </summary>
   
-# Games <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35">
+# Games <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_game_controller_50px.png?raw=true" align="center" width="35"/>
 
 ## Steam <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_steam_50px.png" align="center" width="35"/>
 - [Dishonored - Steam](https://store.steampowered.com/app/205100/Dishonored/)
@@ -47,13 +47,17 @@
 - [Bioshock - Wikipedia](https://en.wikipedia.org/wiki/BioShock)
 - [Left 4 Dead - Wikipedia](https://en.wikipedia.org/wiki/Left_4_Dead)
 - [Assassin's Creed IV - Wikipedia](https://en.wikipedia.org/wiki/Assassin%27s_Creed_IV:_Black_Flag)
-
+- [Teste](https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_contacts_50px_2.png)
 </details>
 
 *** 
 
 <details>
-  <summary>Contatos</summary>
- </details>
+  <summary> <img src="https://github.com/vinicius-goncalves/vinicius-goncalves/blob/main/icons/icons8_contacts_50px_2.png?raw=true" align="center" width="35"/>Contato</summary>
+  
+### Contato
+- [Linkedin](https://www.linkedin.com/in/perfil-vinicius-goncalves/)
+- <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>[]
+</details>
   
  <!-- Icons by Pichon/Icons8 https://icons8.com/ - Free icons -->
