@@ -24,36 +24,83 @@
             <nav>
                 <a href="#">Início</a>
                 <a href="#skills">Skills</a>
-                <a href="#">Hobbies</a>
             </nav>
             <section class="first-details">
                     <h1 class="first-word">Olá!</h1>
-                    <p class="first-lore">Seja muito bem-vindx! Meu nome é <strong>Vinícius</strong> e atualmente sou programador focando em <span class="spelling">front-end</span>. Conheça me um pouco mais:</p>
+                    <p class="first-lore">Seja muito bem-vindx! Meu nome é <strong>Vinícius</strong> e atualmente sou programador fullstack, entretanto, focando mais<span class="spelling">front-end</span>. Conheça me um pouco mais:</p>
                     <i class="material-icons expand_more--icon">expand_more</i>
             </section>
         </header>
         <main class="skills" id="skills">
-            <section style="margin: 25px;">
-                <picture>
-                    <img src="images/pngs/html-logo-256x256.png">
-                </picture>
-                <h3>HTML</h3>
-                <p>HTML é uma linguagem de marcação utilizada para construções de páginas web. É o/a HTML que define as seções, algumas configurações de protocolos e muito mais.
-            </section>
-            <section>
-                <picture>
-                    <img src="images/pngs/css-logo-256x256.png">
-                </picture>
-                <h3>CSS</h3>
-                <p>CSS é uma linguagem para estilização, ou seja, a parte visual. Com ela é possível definir as cores, posições, criar animações e muito mais. Graças a ela, você está vendo este site bem organizado ;) </p>
-            </section>
-            <section>
-                <picture>
-                    <img src="images/pngs/js-logo-256x256.png">
-                </picture>
-                <h4>JavaScript</h4>
-                <p>JavaScript é uma linguagem de programação. Com JavaScript, podemos fazer toda a interatividade de um website, tudo isso de forma dinâmica.</p>
-            </section>
+            <h2>Skills</h2>
+            <h4>Linguagens</h4>
+            <div class="languages">
+                <section>
+                    <picture>
+                        <img src="images/pngs/html-logo-256x256.png">
+                    </picture>
+                    <h3>
+                        <span 
+                            class="abbr" 
+                            data-abbr="HyperText Markup Language"><span class="spelling">HTML</span>
+                    </h3>
+                    <p>HTML é uma linguagem de marcação utilizada para construções de páginas web. É o/a HTML que define títulos, parágrafos e atualmente, no HTML5, toda a semântica por trás de um website.
+                </section>
+                <section>
+                    <picture>
+                        <img src="images/pngs/css-logo-256x256.png">
+                    </picture>
+                    <h3>
+                        <span 
+                            class="abbr" 
+                            data-abbr="Cascading Style Sheets"><span class="spelling">CSS</span>
+                        </span>
+                    </h3>
+                    <p>CSS é uma linguagem para estilização, ou seja, a parte visual. Com ele é possível definir as cores, posições, criar animações e muito mais.</p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="images/pngs/js-logo-256x256.png">
+                    </picture>
+                    <h3 style="cursor: default;">JavaScript</h3>
+                    <p>JavaScript é uma linguagem de programação. Com JavaScript, podemos fazer toda a interatividade de um website, tudo isso de forma dinâmica.</p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="images/pngs/sql-file.png">
+                    </picture>
+                    <h3 style="cursor: default;"><span 
+                        class="abbr" 
+                        data-abbr="Structure Query Language"><span class="spelling">SQL</span></h3>
+                    <p>SQL é uma linguagem utilizada na comunicação de banco de um dados relacional. Ela muito utilizada em vários <span 
+                        class="abbr" 
+                        data-abbr="Relational Database Management System" style="position: relative;"><span class="spelling">RDBMS</span> para a comunicação com um banco de dados.</p>
+                </section>
+            </div>
+
+            <h2>Skills</h2>
+            <h4>Ferramentas/Frameworks/outros</h4>
+
+            <div class="tools">
+                <section>
+                    <picture>
+                        <img src="images/pngs/mysql.png">
+                    </picture>
+                    <div class="item-lore">
+                        <h3>MySQL Workbench</h3>
+                        <p>Software utilizado para facilitar o gerenciamento de um banco de dados relacional, utilizando MySQL.</p>
+                    </div>
+                </section>
+                <section>
+                    <picture>
+                        <img src="images/pngs/materialize-logo.png">
+                    </picture>
+                    <div class="item-lore">
+                        <h3>Materialize</h3>
+                        <p>É um CSS Framework disponibilizado pelo Google, facilitando a criação de sites.</p>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer style="text-align: center; padding: 10px;">
             <p><a href="https://github.com/vinicius-goncalves" target="_blank" rel="external" class="a_links">vinicius-goncalves.com</a> | Vinícius Gonçalves &copy - 2022</p>
