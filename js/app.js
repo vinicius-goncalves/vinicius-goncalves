@@ -46,6 +46,10 @@ window.addEventListener('scroll', () => {
     
     if(clientHeightDynamic <= 680) {
         main.classList.add('active-main')
+        const skillsChildren = document.querySelector('.skills')
+        setTimeout(() => {
+            skillsChildren.querySelectorAll('.spelling').forEach(child => child.classList.add('active-spelling-effect'))
+        }, 1000 / 2)
     }
 
     if(clientHeightDynamic <= 890) {
