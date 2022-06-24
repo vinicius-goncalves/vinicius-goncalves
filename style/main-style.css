@@ -5,11 +5,22 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden !important;
 }
 
 body {
     font-family: 'Poppins';
     position: relative;
+}
+
+body::-webkit-scrollbar {
+    background: #c5c5c5;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6d6d6d;
+    border-radius: 15px;
 }
 
 header {
@@ -138,6 +149,11 @@ nav a {
     Main content
 */
 
+main h2 {
+    margin-top: 20px;
+    font-size:  32px !important;
+}
+
 main {
     min-height: 100vh;
     opacity: 0;
@@ -161,7 +177,10 @@ main .languages {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 main .languages section {
@@ -278,8 +297,9 @@ h3 {
 }
 
 @media screen and (max-width: 1000px) {
+
     main div {
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -288,25 +308,32 @@ h3 {
 
     main h2 {
         margin-top: 50px;
-        font-size: calc(64px / 1.5)
+        font-size: 32px;
     }
 
     main h4 {
         font-size: 12px;
     }
 
-    main .languages section h3 {
+    main section h3 {
         display: flex;
         justify-content: center;
     }
 
     .tools {
+        display: block !important;
         margin: 0 !important;
     }
 
     .tools section {
         display: flex;
         flex-direction: column;
+        margin: 50px !important;
+    }
+
+    .tools p {
+        display: flex;
+        justify-content: center;
     }
 
     .abbr::after {
@@ -316,13 +343,19 @@ h3 {
     }
 }
 
+@media screen and (max-width: 600px) {
+    main h2 {
+        font-size: 20px !important;
+    }
+}
+
 .tools {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 20vh;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .tools section {
