@@ -1,6 +1,6 @@
 <header> 
   <h1>👋 Olá, seja muito bem vindo!</h1>
-  <p>Desenvolvedor full-stack há alguns anos, e tudo começou criando servidores e plugins de Minecraft utilizando a linguagem Java e desde então, busco evoluir pelo menos 1% a cada dia. Atualmente, focando mais no front-end (como HTML, CSS e JavaScript) e com back-end apenas banco de dados (como SQL), mas mesmo assim back-end é minha paixão. :heart: </p>
+  <p>Me chamo <strong>Vinícius</strong> e sou desenvolvedor há pouco mais de 4 anos. Tudo começou criando servidores e plugins de Minecraft utilizando a linguagem Java e desde então, busco evoluir pelo menos 1% a cada dia. Atualmente, focando mais no front-end (com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>) e com back-end apenas banco de dados (como <strong>SQL</strong>). </p>
 </header>
 
 <h2> 👨‍💻 Skills</h2>
