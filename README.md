@@ -10,7 +10,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML%205-323330?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=007ACC)
-![Materialize](https://img.shields.io/badge/Materialize%20(Google)-323330?style=for-the-badge&logo=google&logoColor=FF3366)
 
 <h3>🔐 Back-end</h3>
 <p> Algumas de minhas habilidades em back-end (server-side) são: </p>
