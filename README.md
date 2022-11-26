@@ -39,6 +39,6 @@
 ![Firebase](https://img.shields.io/badge/Firebase-323330?style=for-the-badge&logo=firebase)
 ![Java](https://img.shields.io/badge/Node.js-323330?style=for-the-badge&logo=java)
 
-<h2>📚 Perfil overview</h2>
+<h2>📚 Profile overview</h2>
 
 ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark)
