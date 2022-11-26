@@ -14,7 +14,8 @@
 <h3>🔐 Back-end</h3>
 <p> Algumas de minhas habilidades em back-end (server-side) são: </p>
 
-![Java](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=java&logoColor=E34F26)
+<!--![Java](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=java&logoColor=E34F26)-->
+
 ![MySQL](https://img.shields.io/badge/MySQL-323330?style=for-the-badge&logo=mysql)
 
 <h2> 👁‍🗨 Overview sobre as linguagems mais utilizadas </h2>
