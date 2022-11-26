@@ -24,16 +24,20 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=tokyonight)](https://github.com/vinicius-goncalves/github-readme-stats)
  
-<h3>💻 Softwares</h3>
+<h3>💻 Ferramentas</h3>
 <p> Alguns softwares/ferramentas que utilizo atualmente: </p>
 
-![IntelliJ IDE](https://img.shields.io/badge/IntelliJ_IDEA-323330?style=for-the-badge&logo=intellij-idea)
-![Eclipse](https://img.shields.io/badge/Eclipse_IDE-323330?style=for-the-badge&logo=eclipse&logoColor=5C2D91)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-323330?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4)
 ![Git](https://img.shields.io/badge/Git-323330?style=for-the-badge&logo=git)
 ![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-323330?style=for-the-badge&logo=mysql)
 ![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-323330?style=for-the-badge&logo=phpMyAdmin)
+
+<p>Tecnologias e ferramentas que já tive contato (já utilizei, mas que não são o meu foco ou não utilizo mais... até então)</p>
+  
+![IntelliJ IDE](https://img.shields.io/badge/IntelliJ_IDEA-323330?style=for-the-badge&logo=intellij-idea)
+![Eclipse](https://img.shields.io/badge/Eclipse_IDE-323330?style=for-the-badge&logo=eclipse&logoColor=5C2D91)
 ![Firebase](https://img.shields.io/badge/Firebase-323330?style=for-the-badge&logo=firebase)
+![Java](https://img.shields.io/badge/Node.js-323330?style=for-the-badge&logo=java)
 
 <h2>📚 Perfil overview</h2>
 
