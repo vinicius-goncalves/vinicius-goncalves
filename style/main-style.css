@@ -44,15 +44,9 @@ header .first-details {
     opacity: 0;
 }
 
-.active-first-word {
+.active-x-opacity-effect {
     animation: opacity-effect 1s;
     opacity: 1;
-}
-
-.active-first-lore {
-    opacity: 1;
-    animation: opacity-effect 1s;
-    margin: 10px;
 }
 
 .active-expand_more--icon {
@@ -61,23 +55,28 @@ header .first-details {
     animation: opacity-effect 1s, shake 1s infinite alternate-reverse;
 }
 
-.spelling {
+.a_links {
     display: inline-block;
     position: relative;
+    transition: color 200ms;
 }
 
-.spelling::before {
+.a_links::before {
     content: "";
     position: absolute;
     bottom: 0;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: black;
     transition: width 1s;
 }
 
-.spelling.active-spelling-effect::before {
+.a_links.active-a_links-effect::before {
     width: 100%;
+}
+
+.a_links:hover {
+    color: #4d4d4d
 }
 
 .material-icons {
@@ -142,12 +141,22 @@ nav {
 nav a {
     text-decoration: none;
     margin: 25px;
-    color: black;
+    color: #0D0D0D;
+    transition: color 200ms;
+}
+
+nav a:hover {
+    color: #5f5f5f;
 }
 
 /*
     Main content
 */
+
+a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
 
 main h2 {
     margin-top: 20px;
@@ -245,30 +254,6 @@ nav.active-navbar-color {
     }
 }
 
-.a_links {
-    color: gray;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-}
-
-.a_links::before {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    transform: scaleX(0);
-    transition: transform 1s;
-}
-
-.a_links:hover::before {
-    transform: scaleX(1);
-    
-}
-
 h3 {
     position: relative;
 }
@@ -290,10 +275,6 @@ h3 {
 .abbr:hover::after {
     opacity: 1;
     cursor: default;
-}
-
-.spelling {
-    cursor: help;
 }
 
 @media screen and (max-width: 1000px) {
