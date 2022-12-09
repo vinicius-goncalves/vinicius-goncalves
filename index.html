@@ -15,15 +15,22 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <div class="alert" >
+        <!-- <div class="alert" >
             <i class="material-icons" style="color: #282924">warning</i>
             <p>Este site se encontra em construção</p>
-        </div>
+        </div> -->
         <header>
             <nav>
-                <a href="#">Início</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projetos</a>
+                <a href="#" data-language-text="home-anchor">Início</a>
+                <a href="#skills" data-language-text="skills-anchor">Skills</a>
+                <a href="#projects" data-language-text="projects-anchor">Projetos</a>
+                <div class="country-languages">
+                    <span data-language-text="language-select">Idioma:</span>
+                    <div>
+                        <img data-language="PT-BR" src="images/flags/br.png">
+                        <img data-language="EN-US" src="images/flags/us.png">
+                    </div>
+                </div>
             </nav>
             <section class="first-details principal-section">
                     <h1 class="first-word">Olá!</h1>
@@ -105,4 +112,5 @@
     </body>
     <script src="js/app.js" type="module"></script>
     <script src="js/storage/cache-manager.js" type="module"></script>
+    <script src="js/language-control.js"></script>
 </html>

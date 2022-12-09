@@ -3,6 +3,10 @@
 
 * {margin:0;padding:0;box-sizing:border-box}
 
+:root {
+    font-size: 17px;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
@@ -126,6 +130,20 @@ nav {
     animation: navbarEffect 1s;
 }
 
+.country-languages {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+.country-languages img {
+    cursor: pointer;
+} 
+
+.country-languages span {
+    font-size: .85rem;
+}
+
 @keyframes navbarEffect {
     from {
         opacity: 0;
@@ -140,9 +158,9 @@ nav {
 
 nav a {
     text-decoration: none;
-    margin: 25px;
     color: #0D0D0D;
     transition: color 200ms;
+    padding: 0 25px;
 }
 
 nav a:hover {
@@ -325,8 +343,22 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+
     main h2 {
         font-size: 20px !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+        padding: 2px 0;
+        display: block;
+        font-size: .91rem;
+    }
+
+    .principal-section {
+        font-size: .8rem;
     }
 }
 

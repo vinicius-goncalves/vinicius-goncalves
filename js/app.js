@@ -5,7 +5,6 @@ const navbar = document.querySelector('nav')
 const docEl = document.documentElement
 
 const principalSection = document.querySelector('.principal-section')
-const principalSectionRect = principalSection.getBoundingClientRect()
 
 const elementsToLoad = [
     {
@@ -42,6 +41,7 @@ const elementsToLoad = [
 
 function refreshLayout() {
 
+    const principalSectionRect = principalSection.getBoundingClientRect()
     const scrollTop = Math.floor(docEl.scrollTop)
 
     if(scrollTop === 0) {
@@ -57,10 +57,10 @@ function refreshLayout() {
     }
 }
 
-
 function firstInitialization() {
-    elementsToLoad.forEach(el => auxToTimeout(el))
+
     refreshLayout()
+    elementsToLoad.forEach(el => auxToTimeout(el))
 }
 
 window.addEventListener('DOMContentLoaded', firstInitialization)

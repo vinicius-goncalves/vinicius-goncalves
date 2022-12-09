@@ -1,0 +1,11 @@
+{
+    "PT-BR": {
+        "home-anchor": "Início",
+        "skills-anchor": "Skills",
+        "projects-anchor": "Projects",
+        "language-select": "Idioma"
+    },
+    "EN-US": {
+        "language-select": "Language"
+    }
+}    
