@@ -1,5 +1,6 @@
 import { auxToTimeout } from './utils.js'
 
+const seeMoreIcon = document.querySelector('.see_more--icon')
 const main = document.querySelector('main')
 const navbar = document.querySelector('nav')
 const docEl = document.documentElement
@@ -20,9 +21,9 @@ const elementsToLoad = [
         action: 'add'
     },
     {
-        cssSelector: '.expand_more--icon',
-        classToDoAction: 'active-expand_more--icon',
-        afterMs: 600,
+        cssSelector: '.see_more--icon',
+        classToDoAction: 'active-see_more--icon',
+        afterMs: 1200,
         action: 'add'
     },
     {
@@ -34,26 +35,27 @@ const elementsToLoad = [
     {
         cssSelector: 'nav',
         classToDoAction: 'active-navbar',
-        afterMs: 1000,
+        afterMs: 0,
         action: 'add'
     }
 ]
 
 function refreshLayout() {
 
-    const principalSectionRect = principalSection.getBoundingClientRect()
     const scrollTop = Math.floor(docEl.scrollTop)
+    const principalSectionRect = principalSection.getBoundingClientRect()
+
 
     if(scrollTop === 0) {
-        navbar.classList.remove('active-navbar-color')
+        navbar.classList.remove('active-navbar-backgroundcolor')
     }
 
     if(principalSectionRect.bottom <= 150) {
         main.classList.add('class', 'active-main')
     }
 
-    if(principalSectionRect.bottom <= 200) {
-        navbar.classList.add('active-navbar-color')
+    if(principalSectionRect.bottom <= 200 || principalSectionRect.height >= 200) {
+        navbar.classList.add('active-navbar-backgroundcolor')
     }
 }
 
@@ -61,6 +63,12 @@ function firstInitialization() {
 
     refreshLayout()
     elementsToLoad.forEach(el => auxToTimeout(el))
+    seeMoreIcon.addEventListener('click', () => {
+        docEl.scrollTo({
+            behavior: 'auto',
+            top: main.getBoundingClientRect().top
+        })
+    })
 }
 
 window.addEventListener('DOMContentLoaded', firstInitialization)

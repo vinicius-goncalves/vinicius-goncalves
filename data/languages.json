@@ -1,11 +1,18 @@
 {
     "PT-BR": {
+        "language-select": "Idioma:",
         "home-anchor": "Início",
         "skills-anchor": "Skills",
-        "projects-anchor": "Projects",
-        "language-select": "Idioma"
+        "projects-anchor": "Projetos",
+        "greeting-word": "Olá!",
+        "welcome-lore": "Meu nome é Vinícius e atualmente sou programador cliente-side. Fique à vontade para me conhecer um pouco mais."
     },
     "EN-US": {
-        "language-select": "Language"
+        "language-select": "Language",
+        "home-anchor": "Home",
+        "skills-anchor": "Skills",
+        "projects-anchor": "Projects",
+        "greeting-word": "Hello!",
+        "welcome-lore": "My name is Vinícius and nowadays I'm a client-side programming. Feel free to know me a litte."
     }
 }    

@@ -44,8 +44,12 @@ header .first-details {
 
 .first-word, 
 .first-lore, 
-.expand_more--icon {
+.see_more--icon {
     opacity: 0;
+}
+
+.see_more--icon {
+    cursor: pointer;
 }
 
 .active-x-opacity-effect {
@@ -53,7 +57,7 @@ header .first-details {
     opacity: 1;
 }
 
-.active-expand_more--icon {
+.active-see_more--icon {
     margin-top: 10px;
     opacity: 1;
     animation: opacity-effect 1s, shake 1s infinite alternate-reverse;
@@ -200,7 +204,8 @@ main h2 {
     -moz-user-select: none;
 }
 
-main .languages {
+main .languages,
+main .tools {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +215,8 @@ main .languages {
     width: 100%;
 }
 
-main .languages section {
+main .languages section,
+main .tools section {
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -220,7 +226,8 @@ main .languages section {
     max-width: 500px;
 }
 
-main .languages section h3 {
+main .languages section h3,
+main .tools section h3 {
     text-align: center;
 }
 
@@ -239,9 +246,9 @@ main section img {
     animation: opacity-effect 1s;
 }
 
-nav.active-navbar-color {
+nav.active-navbar-backgroundcolor {
     background-color: #fcfcfc;
-    transition: background-color 500ms;
+    transition: background-color 200ms;
 }
 
 .alert {
@@ -318,28 +325,6 @@ h3 {
         display: flex;
         justify-content: center;
     }
-
-    .tools {
-        display: block !important;
-        margin: 0 !important;
-    }
-
-    .tools section {
-        display: flex;
-        flex-direction: column;
-        margin: 50px !important;
-    }
-
-    .tools p {
-        display: flex;
-        justify-content: center;
-    }
-
-    .abbr::after {
-        bottom: 35px;
-        left: -1px;
-        padding: 5px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -350,37 +335,46 @@ h3 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     nav a {
         padding: 2px 0;
         display: block;
         font-size: .91rem;
     }
 
+    nav .country-languages {
+        position: static;
+    }
+
+    .country-languages span {
+        font-size: .7rem;
+    }
+    
+    .country-languages img {
+        width: 16px;
+    }
+
     .principal-section {
         font-size: .8rem;
     }
+
+    main {
+        margin: 10px;
+    }
+
+    main h2 {
+        font-size: .8rem !important;
+    }
+
+    main .languages,
+    main .tools {
+        font-size: .7rem;
+        word-break: break-all;
+    }
 }
 
-.tools {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    min-height: 20vh;
-    margin-left: 50px;
-}
-
-.tools section {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-}
-
-.tools .item-lore {
-    margin: 0 25px;
-    width: 100%;
-    max-width: 500px;
+@media screen and (max-width: 200px) {
+    nav .country-languages {
+        display: none;
+    }
 }
