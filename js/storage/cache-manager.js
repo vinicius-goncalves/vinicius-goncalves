@@ -39,6 +39,3 @@ function CacheManager(cacheName) {
 
     }
 }
-
-const c = new CacheManager('c')
-c.findItem(`https://${window.origin}/languages.json`)
