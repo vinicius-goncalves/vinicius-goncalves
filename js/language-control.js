@@ -1,6 +1,22 @@
+import { CacheManager } from './storage/cache-manager.js'
+
 const countryLanguages = document.querySelector('.country-languages')
 
-countryLanguages.addEventListener('click', (event) => {
+const languagesCache = new CacheManager('languages')
+const dataPath = `${window.origin}/data/languages.json`
+
+async function updateLanguagesCache() {
+    const itemsResult = await languagesCache.findItem(dataPath)
+    
+    if(!itemsResult.exists || itemsResult.exists == undefined) {
+        await languagesCache.putItem(dataPath, 'application/json')
+        return
+    }
+}
+
+window.addEventListener('DOMContentLoaded', updateLanguagesCache)
+
+countryLanguages.addEventListener('click', async (event) => {
     
     const targetClicked = event.target
 
@@ -20,16 +36,13 @@ countryLanguages.addEventListener('click', (event) => {
         default:
     }
 
-    fetch(`${window.origin}/data/languages.json`).then(response => {
-        return response.json()
-    }).then(languages => {
-        
-        const phrasesAndWordsPairs = Object.entries(languages[languageClicked])
-        phrasesAndWordsPairs.forEach(pair => {
-            const [ cssSelector, languagePhrase ] = pair
+    const { ['result']: languages } = await languagesCache.findItem(dataPath, 'application/json')
 
-            document.querySelector(`[data-language-text="${cssSelector}"`).textContent = languagePhrase
+    const phrasesAndWordsPairs = Object.entries(languages[languageClicked])
+    phrasesAndWordsPairs.forEach(pair => {
+        const [ cssSelector, languagePhrase ] = pair
 
-        })
+        document.querySelector(`[data-language-text="${cssSelector}"`).textContent = languagePhrase
+
     })
 })

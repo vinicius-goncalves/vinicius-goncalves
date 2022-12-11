@@ -1,4 +1,5 @@
 import { auxToTimeout } from './utils.js'
+import { CacheManager } from './storage/cache-manager.js'
 
 const seeMoreIcon = document.querySelector('.see_more--icon')
 const main = document.querySelector('main')
@@ -57,9 +58,6 @@ function refreshLayout() {
     if(principalSectionRect.bottom <= 250 || principalSectionRect.height >= 200) {
         navbar.classList.add('active-navbar-backgroundcolor')
     }
-    
-    console.log(principalSectionRect.bottom)
-
 }
 
 function firstInitialization() {
