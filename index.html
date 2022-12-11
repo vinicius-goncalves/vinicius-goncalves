@@ -13,6 +13,7 @@
         <meta name="keywords" content="portfolio, aboutme, programming languages">
         <link rel="stylesheet" href="style/main-style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
     </head>
     <body>
         <!-- <div class="alert" >
@@ -25,7 +26,7 @@
                 <a href="#skills" data-language-text="skills-anchor">Skills</a>
                 <a href="#projects" data-language-text="projects-anchor">Projetos</a>
                 <div class="country-languages">
-                    <span data-language-text="language-select">Idioma:</span>
+                    <span data-language-text="language-select">Idioma: (Language)</span>
                     <div>
                         <img data-language="PT-BR" src="images/flags/br.png">
                         <img data-language="EN-US" src="images/flags/us.png">
@@ -39,7 +40,7 @@
             </section>
         </header>
         <main class="skills" id="skills">
-            <h2>Linguagens</h2>
+            <h2 data-language-text="language-h2-skills">Linguagens</h2>
             
             <div class="languages">
                 <section>
@@ -49,7 +50,7 @@
                     <h3>
                         <span>HTML</span>
                     </h3>
-                    <p>HTML é uma linguagem de marcação utilizada para construções de páginas web. É o/a HTML que define títulos, parágrafos e atualmente, no HTML5, toda a semântica por trás de um website.
+                    <p data-language-text="html-languages-lore">HTML é uma linguagem de marcação utilizada para construções de páginas web. É o/a HTML que define títulos, parágrafos e atualmente, no HTML5, toda a semântica por trás de um website.</p>
                 </section>
                 <section>
                     <picture>
@@ -58,25 +59,25 @@
                     <h3>
                         <span>CSS</span>
                     </h3>
-                    <p>CSS é uma linguagem para estilização, ou seja, a parte visual. Com ele é possível definir as cores, posições, criar animações e muito mais.</p>
+                    <p data-language-text="css-languages-lore">CSS é uma linguagem para estilização, ou seja, a parte visual. Com ele é possível definir as cores, posições, criar animações e muito mais.</p>
                 </section>
                 <section>
                     <picture>
                         <img src="images/pngs/js-logo-256x256.png">
                     </picture>
                     <h3>JavaScript</h3>
-                    <p>JavaScript é uma linguagem de programação que com ela podemos fazer toda a interatividade de um website, tudo isso de forma dinâmica. Hoje em dia, JavaScript também está presente fora dos navegadores, em milhões de aplicações.</p>
+                    <p data-language-text="js-languages-lore">JavaScript é uma linguagem de programação que com ela podemos fazer toda a interatividade de um website, tudo isso de forma dinâmica. Hoje em dia, JavaScript também está presente fora dos navegadores, em milhões de aplicações.</p>
                 </section>
                 <section>
                     <picture>
                         <img src="images/pngs/sql-file.png">
                     </picture>
                     <h3><span>SQL</span></h3>
-                    <p>SQL é uma linguagem utilizada na comunicação de banco de um dados relacional. Ela muito utilizada em vários RDBMS para a comunicação com um banco de dados.</p>
+                    <p data-language-text="sql-languages-lore">SQL é uma linguagem utilizada na comunicação de banco de um dados relacional. Ela muito utilizada em vários RDBMS para a comunicação com um banco de dados.</p>
                 </section>
             </div>
 
-            <h2>Ferramentas</h2>
+            <h2 data-language-text="tools-h2-skills">Ferramentas</h2>
 
             <div class="tools">
                 <section>
@@ -85,7 +86,7 @@
                     </picture>
                     <div class="item-lore">
                         <h3>MySQL Workbench</h3>
-                        <p>Software utilizado para facilitar o gerenciamento de um banco de dados relacional, utilizando MySQL.</p>
+                        <p data-language-text="mysql-tools-lore">Software utilizado para facilitar o gerenciamento de um banco de dados relacional, utilizando MySQL.</p>
                     </div>
                 </section>
                 <section>
@@ -94,17 +95,13 @@
                     </picture>
                     <div class="item-lore">
                         <h3>Git</h3>
-                        <p>
-                            Um dos softwares mais utilizados para versionamento de projetos em geral
-                        </p>
+                        <p data-language-text="git-tools-lore">Um dos softwares mais utilizados para versionamento de projetos em geral.</p>
                     </div>
                 </section>
             </div>
         </main>
         <footer style="text-align: center; padding: 10px;">
-            <p>
-                Clique <a href="https://github.com/vinicius-goncalves" target="_blank" rel="external" class="a_links">aqui</a> para acessar meu github.
-            </p>
+            <a href="https://github.com/vinicius-goncalves" target="_blank" rel="external" class="a_links" data-language-text="invite-to-go-github">Visite meu perfil no Github e saiba mais.</a></p>
             <small>Este site está sob licença GPL 3.0, criado por vinicius-goncalves.com</small>
         </footer>
     </body>

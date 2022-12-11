@@ -6,6 +6,7 @@ const navbar = document.querySelector('nav')
 const docEl = document.documentElement
 
 const principalSection = document.querySelector('.principal-section')
+const header = document.querySelector('header').getBoundingClientRect()
 
 const elementsToLoad = [
     {
@@ -45,7 +46,6 @@ function refreshLayout() {
     const scrollTop = Math.floor(docEl.scrollTop)
     const principalSectionRect = principalSection.getBoundingClientRect()
 
-
     if(scrollTop === 0) {
         navbar.classList.remove('active-navbar-backgroundcolor')
     }
@@ -57,16 +57,18 @@ function refreshLayout() {
     if(principalSectionRect.bottom <= 200 || principalSectionRect.height >= 200) {
         navbar.classList.add('active-navbar-backgroundcolor')
     }
+    
 }
 
 function firstInitialization() {
 
     refreshLayout()
     elementsToLoad.forEach(el => auxToTimeout(el))
+
     seeMoreIcon.addEventListener('click', () => {
         docEl.scrollTo({
             behavior: 'auto',
-            top: main.getBoundingClientRect().top
+            top: main.offsetTop
         })
     })
 }

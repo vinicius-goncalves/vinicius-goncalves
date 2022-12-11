@@ -1,18 +1,36 @@
 {
     "PT-BR": {
-        "language-select": "Idioma:",
+        "language-select": "Idioma: (Language)",
         "home-anchor": "Início",
         "skills-anchor": "Skills",
         "projects-anchor": "Projetos",
         "greeting-word": "Olá!",
-        "welcome-lore": "Meu nome é Vinícius e atualmente sou programador cliente-side. Fique à vontade para me conhecer um pouco mais."
+        "welcome-lore": "Meu nome é Vinícius e atualmente sou programador cliente-side. Fique à vontade para me conhecer um pouco mais.",
+        "language-h2-skills": "Linguagens",
+        "tools-h2-skills": "Ferramentas",
+        "html-languages-lore": "HTML é uma linguagem de marcação utilizada para construções de páginas web. É o/a HTML que define títulos, parágrafos e atualmente, no HTML5, toda a semântica por trás de um website.",
+        "css-languages-lore": "CSS é uma linguagem para estilização, ou seja, a parte visual. Com ele é possível definir as cores, posições, criar animações e muito mais.",
+        "js-languages-lore": "JavaScript é uma linguagem de programação que com ela podemos fazer toda a interatividade de um website, tudo isso de forma dinâmica. Hoje em dia, JavaScript também está presente fora dos navegadores, em milhões de aplicações.",
+        "sql-languages-lore": "SQL é uma linguagem utilizada na comunicação de banco de um dados relacional. Ela muito utilizada em vários RDBMS para a comunicação com um banco de dados.",
+        "mysql-tools-lore": "Software utilizado para facilitar o gerenciamento de um banco de dados relacional, utilizando MySQL.",
+        "git-tools-lore": "Um dos softwares mais utilizados para versionamento de projetos em geral.",
+        "invite-to-go-github": "Visite meu perfil no Github e saiba mais."
     },
     "EN-US": {
-        "language-select": "Language",
+        "language-select": "Language: (Idioma)",
         "home-anchor": "Home",
         "skills-anchor": "Skills",
         "projects-anchor": "Projects",
         "greeting-word": "Hello!",
-        "welcome-lore": "My name is Vinícius and nowadays I'm a client-side programming. Feel free to know me a litte."
+        "welcome-lore": "My name is Vinícius and nowadays I'm a client-side programmer. Feel free to know me a little more.",
+        "language-h2-skills": "Languages",
+        "tools-h2-skills": "Tools",
+        "html-languages-lore": "HTML is a markup language so much used to build website pages. It's the HTML that'll define the website titles, paragraphs, navbar menus and other things.",
+        "css-languages-lore": "CSS is a language used in the website style, in other words, the website visual. With CSS you can set the colors, positions, create animations and so on.",
+        "js-languages-lore": "JavaScript is a programming language that can do all the website interaction, such as listener events like clicks, send request to servers and much more.",
+        "sql-languages-lore": "SQL is the language used in relational databases, it is used in so many RDBMS to do all communication to the database.",
+        "mysql-tools-lore": "This is a software to help to manager a relational database that uses MySQL.",
+        "git-tools-lore": "One of the software most used in versioning of projects.",
+        "invite-to-go-github": "Click here to go to my Github profile."
     }
 }    

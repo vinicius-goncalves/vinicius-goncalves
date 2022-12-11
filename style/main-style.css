@@ -64,18 +64,19 @@ header .first-details {
 }
 
 .a_links {
-    display: inline-block;
+    display: inline;
     position: relative;
     transition: color 200ms;
 }
 
 .a_links::before {
     content: "";
+    display: inline;
     position: absolute;
     bottom: 0;
     width: 0;
     height: 1px;
-    background: black;
+    background: #0D0D0D;
     transition: width 1s;
 }
 
@@ -170,6 +171,11 @@ nav a {
 nav a:hover {
     color: #5f5f5f;
 }
+
+nav a:nth-child(3):hover {
+    color: #ff0000;
+}
+
 
 /*
     Main content
@@ -269,6 +275,10 @@ nav.active-navbar-backgroundcolor {
     animation: fadeOutEffect 1s;
 }
 
+footer small {
+    font-size: .6rem;
+}
+
 @keyframes fadeOutEffect {
     from {
         opacity: 1;
@@ -281,25 +291,6 @@ nav.active-navbar-backgroundcolor {
 
 h3 {
     position: relative;
-}
-
-.abbr::after {
-    content: attr(data-abbr);
-    position: absolute;
-    padding: 10px;
-    opacity: 0;
-    bottom: 0;
-    right: 50%;
-    font-size: 15px;
-    font-weight: normal;
-    background: black;
-    color: white;
-    transition: 200ms opacity;
-}
-
-.abbr:hover::after {
-    opacity: 1;
-    cursor: default;
 }
 
 @media screen and (max-width: 1000px) {
@@ -333,6 +324,14 @@ h3 {
         font-size: 20px !important;
     }
 
+    .a_links {
+        display: inline;
+        text-decoration: 1px underline solid #0D0D0D;
+    }
+
+    .a_links::before {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -376,5 +375,19 @@ h3 {
 @media screen and (max-width: 200px) {
     nav .country-languages {
         display: none;
+    }
+
+    footer {
+        font-size: .8rem;
+    }
+
+    /* footer a {
+        text-decoration: underline black;
+    } */
+    
+    footer small {
+        font-size: .6rem;
+        display: block;
+        padding: 15px 0;
     }
 }
