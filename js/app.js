@@ -24,7 +24,7 @@ const elementsToLoad = [
     {
         cssSelector: '.see_more--icon',
         classToDoAction: 'active-see_more--icon',
-        afterMs: 1200,
+        afterMs: 650,
         action: 'add'
     },
     {
@@ -54,10 +54,12 @@ function refreshLayout() {
         main.classList.add('class', 'active-main')
     }
 
-    if(principalSectionRect.bottom <= 200 || principalSectionRect.height >= 200) {
+    if(principalSectionRect.bottom <= 250 || principalSectionRect.height >= 200) {
         navbar.classList.add('active-navbar-backgroundcolor')
     }
     
+    console.log(principalSectionRect.bottom)
+
 }
 
 function firstInitialization() {

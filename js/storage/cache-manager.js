@@ -36,6 +36,5 @@ function CacheManager(cacheName) {
         }
 
         return match
-
     }
 }

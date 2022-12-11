@@ -40,6 +40,7 @@ header .first-details {
     text-align: center;
     width: 100%;
     max-width: 500px;
+    padding: 20px;
 }
 
 .first-word, 
@@ -110,7 +111,7 @@ header .first-details {
     }
 
     to {
-        transform: translateY(5px);
+        transform: translateY(25px);
     }
 }
 
@@ -318,7 +319,23 @@ h3 {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .country-languages span {
+        font-size: .75rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
+
+    nav a {
+        padding: 2px 0;
+        display: block;
+        font-size: .91rem;
+    }
+
+    nav .country-languages {
+        position: static;
+    }
 
     main h2 {
         font-size: 20px !important;
@@ -335,16 +352,6 @@ h3 {
 }
 
 @media screen and (max-width: 450px) {
-    nav a {
-        padding: 2px 0;
-        display: block;
-        font-size: .91rem;
-    }
-
-    nav .country-languages {
-        position: static;
-    }
-
     .country-languages span {
         font-size: .7rem;
     }
@@ -380,10 +387,6 @@ h3 {
     footer {
         font-size: .8rem;
     }
-
-    /* footer a {
-        text-decoration: underline black;
-    } */
     
     footer small {
         font-size: .6rem;
