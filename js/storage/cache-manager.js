@@ -34,11 +34,11 @@ function CacheManager(cacheName) {
             console.log(`The item "${requestURLSplitted[requestURLSplitted.length - 1]}" does not exist into cache "${cacheName}"`)
             return
         }
+
+        return match
+
     }
 }
 
-// const c = new CacheManager('c')
-// c.findItem(`https://${window.origin}/languages.json`)
-
-// const a = new CacheManager('e')
-// a.findItem('Hello ')
+const c = new CacheManager('c')
+c.findItem(`https://${window.origin}/languages.json`)
