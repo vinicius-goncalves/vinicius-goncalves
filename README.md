@@ -1,12 +1,12 @@
 # 👋 Hello! Welcome!
 
-My name is **Vinicius** and I&#39;m a developer there are more than 6 years. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language. But, nowadays I'm focusing on JavaScript and all its features, including **NodeJS**.
+My name is **Vinícius** and I&#39;m a developer there are more than 6 years. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language. But, nowadays I'm focusing on JavaScript and all its features, including **NodeJS**.
 
 ## 👨‍💻 Skills and Tools
   
 *Those are some of the tools I work with:*
 
-|   💻 client-side     |  🎲 server-side  |       📚 libraries     |       🔨 tools         |
+|   💻 client-side     |  🎲 server-side  |       📚 libraries     |        🔨 tools         |
 | :------------------: | :---------------: | :---------------------:| :---------------------: |
 | ![][javascript]      | ![][nodejs]       | ![][firebase]          | ![][visual-studio-code] |
 | ![][html]            | ![][mysql]        | ![][mongoose]          | ![][git]                |
@@ -15,12 +15,13 @@ My name is **Vinicius** and I&#39;m a developer there are more than 6 years. Eve
 | **-**                | **-**             | **-**                  | ![][markdown]           |
 
 ## 👁 Status
+*Check out some of my status:*
 
-Most used languages
+> Most used languages
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
 
-Profile overview
+> Profile overview
 
 ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark)
 
