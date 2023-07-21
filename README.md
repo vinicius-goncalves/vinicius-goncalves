@@ -41,7 +41,7 @@ Feel free to know me a little more.
 </div>
 
 ## 👁 Status and overview
-<div align="center">
+<div id="status-and-overview" align="center">
   
   *Most used languages*
     
