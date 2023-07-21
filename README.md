@@ -6,13 +6,13 @@ My name is **Vinícius** and I&#39;m a developer there are more than 6 years. Ev
   
 *Those are some of the tools I work with:*
 
-|   💻 client-side     |  🎲 server-side  |       📚 libraries     |        🔨 tools         |
-| :------------------: | :---------------: | :---------------------:| :---------------------: |
-| ![][javascript]      | ![][nodejs]       | ![][firebase]          | ![][visual-studio-code] |
-| ![][html]            | ![][mysql]        | ![][mongoose]          | ![][git]                |
-| ![][css]             | ![][mongodb]      | ![][express]           | ![][mysql-workbench]    |
-| **-**                | **-**             | ![][jwt]               | ![][postman]            |
-| **-**                | **-**             | **-**                  | ![][markdown]           |
+|    💻 client-side    |  🎲 server-side  |       📚 libraries      |        🔨 tools         |
+| :------------------: | :---------------: | :---------------------: | :---------------------: |
+| ![][javascript]      | ![][nodejs]       | ![][firebase]           | ![][visual-studio-code] |
+| ![][html]            | ![][mysql]        | ![][mongoose]           | ![][git]                |
+| ![][css]             | ![][mongodb]      | ![][express]            | ![][mysql-workbench]    |
+| **-**                | **-**             | ![][jwt]                | ![][postman]            |
+| **-**                | **-**             | **-**                   | ![][markdown]           |
 
 ## 👁 Status
 *Check out some of my status:*
