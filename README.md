@@ -23,21 +23,22 @@ Feel free to know me a little more.
   
 <div id="skills-and-tools" align="center">
   
-  *Those are some of the tools I work with:*
+  *Those are some of the tools and other technologies I work with:*
   
 |    💻 client-side    |  🎲 server-side  |       📚 libraries      |        🔨 tools         |
 | :------------------: | :---------------: | :---------------------: | :---------------------: |
-| ![][javascript]      | ![][nodejs]       | ![][firebase]           | ![][visual-studio-code] |
-| ![][html]            | ![][mysql]        | ![][mongoose]           | ![][git]                |
-| ![][css]             | ![][mongodb]      | ![][express]            | ![][mysql-workbench]    |
-| **-**                | **-**             | ![][jwt]                | ![][postman]            |
-| **-**                | **-**             | **-**                   | ![][markdown]           |
+| ![][javascript]      | ![][mongodb]      | ![][mongoose]           | ![][visual-studio-code] |
+| ![][html]            | ![][nodejs]       | ![][firebase]           | ![][mysql-workbench]    |
+| ![][css]             | ![][mysql]        | ![][express]            | ![][mongodb-compass]    |
+| ![][markdown]        | **-**             | ![][jwt]                | ![][postman]            |
+| **-**                | **-**             | **-**                   | ![][git]                |
+| **-**                | **-**             | **-**                   | **-**                   |
   
 </div>
 
 ## 👨‍🔧 More about me
 <div id="more-about-me">
-  I'm studying Software Engineering, I'm focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
+  I'm studying Software Engineering, focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
 </div>
 
 ## 👁 Status and overview
@@ -57,6 +58,7 @@ Feel free to know me a little more.
 [javascript]: <https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E> "JavaScript"
 [html]: <https://img.shields.io/badge/HTML%205-323330?style=for-the-badge&logo=html5> "HTML"
 [css]: <https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=007ACC> "CSS"
+[markdown]: <https://img.shields.io/badge/Markdown-323330?style=for-the-badge&logo=markdown&logoColor=#FF6C37>
 [comment]: # (client-side-badges)
 
 [comment]: # (server-side-badges)
@@ -76,8 +78,8 @@ Feel free to know me a little more.
 [visual-studio-code]: <https://img.shields.io/badge/Visual_Studio_Code-323330?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4> "Visual Studio Code"
 [git]: <https://img.shields.io/badge/Git-323330?style=for-the-badge&logo=git> "Git"
 [mysql-workbench]: <https://img.shields.io/badge/MySQL_Workbench-323330?style=for-the-badge&logo=mysql> "MySQL Workbench"
-[postman]: <https://img.shields.io/badge/Postman-323330?style=for-the-badge&logo=postman&logoColor=#FF6C37>
-[markdown]: <https://img.shields.io/badge/Markdown-323330?style=for-the-badge&logo=markdown&logoColor=#FF6C37>
+[postman]: <https://img.shields.io/badge/Postman-323330?style=for-the-badge&logo=postman&logoColor=#FF6C37> "Postman"
+[mongodb-compass]: <https://img.shields.io/badge/MongoDB_Compass-323330?style=for-the-badge&logo=mongodb&logoColor=4EA94B> "MongoDB Compass"
 [comment]: # (tools-badges)
 
 [comment]: # (badge-references)
