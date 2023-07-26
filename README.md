@@ -5,7 +5,7 @@ Feel free to know me a little more.
 - [About me](#about-me)
 - [Skills and Tools](#skills-and-tools)
 - [More about me](#more-about-me)
-- [Status and overview](#status-and-overview)
+- [Other status](#other-status)
 
 ## 🙋‍♂️ About Me
 <div id="about-me" align="center">
@@ -13,9 +13,7 @@ Feel free to know me a little more.
     My name is <strong>Vinícius</strong> and I'm a developer there are more than 6 years. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language.
   </p>
   
-  ```
-  --{ An overview of my profile }--
-  ```
+  ### --{ An overview of my profile }--
   
   ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark)
   
@@ -43,12 +41,10 @@ Feel free to know me a little more.
   I'm studying Software Engineering, focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
 </div>
 
-## 👁 Status and overview
-<div id="status-and-overview" align="center">
+## 👁 Other status
+<div id="other-status" align="center">
   
-  ```
-  --{ Most used languages }--
-  ```
+  ### --{ Most used languages }--
     
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
 
