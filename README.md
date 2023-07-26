@@ -13,7 +13,9 @@ Feel free to know me a little more.
     My name is <strong>Vinícius</strong> and I'm a developer there are more than 6 years. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language.
   </p>
   
-  *An overview of my most used languages*
+  ```
+  --{ An overview of my profile }--
+  ```
   
   ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark)
   
@@ -24,15 +26,15 @@ Feel free to know me a little more.
 <div id="skills-and-tools" align="center">
   
   *Those are some of the tools and other technologies I work with:*
-  
-|    💻 client-side    |  🎲 server-side  |       📚 libraries      |        🔨 tools         |
-| :------------------: | :---------------: | :---------------------: | :---------------------: |
-| ![][javascript]      | ![][mongodb]      | ![][mongoose]           | ![][visual-studio-code] |
-| ![][html]            | ![][nodejs]       | ![][firebase]           | ![][mysql-workbench]    |
-| ![][css]             | ![][mysql]        | ![][express]            | ![][mongodb-compass]    |
-| ![][markdown]        | **-**             | ![][jwt]                | ![][postman]            |
-| **-**                | **-**             | **-**                   | ![][git]                |
-| **-**                | **-**             | **-**                   | **-**                   |
+    
+  |    💻 client-side    |  🎲 server-side  |       📚 libraries      |        🔨 tools         |
+  | :------------------: | :---------------: | :---------------------: | :---------------------: |
+  | ![][javascript]      | ![][mongodb]      | ![][mongoose]           | ![][visual-studio-code] |
+  | ![][html]            | ![][nodejs]       | ![][firebase]           | ![][mysql-workbench]    |
+  | ![][css]             | ![][mysql]        | ![][express]            | ![][mongodb-compass]    |
+  | ![][markdown]        | **-**             | ![][vue]                | ![][postman]            |
+  | **-**                | **-**             | ![][jwt]                | ![][git]                |
+  | **-**                | **-**             | **-**                   | **-**                   |
   
 </div>
 
@@ -44,7 +46,9 @@ Feel free to know me a little more.
 ## 👁 Status and overview
 <div id="status-and-overview" align="center">
   
-  *Most used languages*
+  ```
+  --{ Most used languages }--
+  ```
     
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
 
@@ -72,6 +76,7 @@ Feel free to know me a little more.
 [mongoose]: <https://img.shields.io/badge/Mongoose-323330?style=for-the-badge&logo=mongoose&logoColor=880000> "Mongoose"
 [express]: <https://img.shields.io/badge/Express-323330?style=for-the-badge&logo=express&logoColor=#000000> "Express"
 [jwt]: <https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=jsonwebtokens&logoColor=#000000> "JWT"
+[vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=4FC08D> "Vue"
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
