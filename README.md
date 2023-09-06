@@ -44,7 +44,7 @@ Feel free to know me a little more.
 ## 👁 Other status
 <div id="other-status" align="center">
   
-  ### --{ Most used languages }--
+  ### --{ Most used languages and frameworks }--
     
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
 
