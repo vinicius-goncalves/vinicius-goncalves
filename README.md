@@ -38,7 +38,9 @@ Feel free to know me a little more.
 
 ## 👨‍🔧 More about me
 <div id="more-about-me">
-  I'm studying Software Engineering, focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
+  <p>
+    I'm studying Software Engineering, focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
+  </p>
 </div>
 
 ## 👁 Other status
