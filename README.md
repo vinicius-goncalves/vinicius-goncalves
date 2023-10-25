@@ -10,7 +10,7 @@ Feel free to know me a little more.
 ## 🙋‍♂️ About Me
 <div id="about-me" align="center">
   <p align="left">
-    My name is <strong>Vinícius</strong> and I'm a developer there are more than 6 years. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language.
+    My name is <strong>Vinícius</strong> and I'm a developer there are more than 6 years, studying Software Engineering. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language.
   </p>
   
   ### --{ An overview of my profile }--
@@ -27,11 +27,12 @@ Feel free to know me a little more.
     
   |    💻 client-side    |  🎲 server-side  |      📚 libraries & frameworks     |        🔨 tools        |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: |
+  |                      |                   |                                    |                         |
   | ![][javascript]      | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
   | ![][html]            | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |
   | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |
-  | ![][markdown]        | **-**             | ![][vue]                           | ![][postman]            |
-  | **-**                | **-**             | ![][jwt]                           | ![][git]                |
+  | ![][markdown]        | ![][java]         | ![][vue]                           | ![][postman]            |
+  | ![][typescript]      | **-**             | ![][jwt]                           | ![][git]                |
   | **-**                | **-**             | **-**                              | **-**                   |
   
 </div>
@@ -39,7 +40,7 @@ Feel free to know me a little more.
 ## 👨‍🔧 More about me
 <div id="more-about-me">
   <p>
-    I'm studying Software Engineering, focusing on JavaScript and all its features, from vanilla features to **NodeJS**. I started learning JavaScript about two years ago, and I went deeper and deeper into it.
+    I'm studying Software Engineering. I started learning JavaScript about two years ago, and I went deeper and deeper into it - today, I'm getting deeper and deeper with TypeScript and Java, but JavaScript continues to be my favorite language of all.
   </p>
 </div>
 
@@ -61,12 +62,14 @@ Feel free to know me a little more.
 [html]: <https://img.shields.io/badge/HTML%205-323330?style=for-the-badge&logo=html5> "HTML"
 [css]: <https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=007ACC> "CSS"
 [markdown]: <https://img.shields.io/badge/Markdown-323330?style=for-the-badge&logo=markdown&logoColor=#FF6C37>
+[typescript]: <https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=3077C5> "TypeScript"
 [comment]: # (client-side-badges)
 
 [comment]: # (server-side-badges)
 [nodejs]: <https://img.shields.io/badge/Node.js-323330?style=for-the-badge&logo=node.js> "NodeJS"
 [mysql]: <https://img.shields.io/badge/MySQL-323330?style=for-the-badge&logo=mysql> "MySQL"
 [mongodb]: <https://img.shields.io/badge/MongoDB-323330?style=for-the-badge&logo=mongodb&logoColor=4EA94B> "MongoDB"
+[java]: <https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=openjdk&logoColor=437291> "Java"
 [comment]: # (server-side-badges)
 
 [comment]: # (libraries-badges)
@@ -74,7 +77,7 @@ Feel free to know me a little more.
 [mongoose]: <https://img.shields.io/badge/Mongoose-323330?style=for-the-badge&logo=mongoose&logoColor=880000> "Mongoose"
 [express]: <https://img.shields.io/badge/Express-323330?style=for-the-badge&logo=express&logoColor=#000000> "Express"
 [jwt]: <https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=jsonwebtokens&logoColor=#000000> "JWT"
-[vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=4FC08D> "Vue"
+[vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=#4FC08D> "Vue"
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
