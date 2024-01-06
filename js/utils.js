@@ -13,10 +13,10 @@ export { auxToTimeout }
  */
 function auxToTimeout(obj) {
 
-    const { 
-        verification, 
-        cssSelector, 
-        classToDoAction, 
+    const {
+        verification,
+        cssSelector,
+        classToDoAction,
         afterMs,
         action } = obj
 

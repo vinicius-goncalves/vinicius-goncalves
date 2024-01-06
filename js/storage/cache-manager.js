@@ -18,7 +18,7 @@ function CacheManager(cacheName = 'general') {
     function verifyProtocol(requestURL) {
 
         try {
-            
+
             const validProtocols = ['http://', 'https://']
             const areSomeValid = validProtocols.some(protocol => requestURL.startsWith(protocol))
 
@@ -39,19 +39,19 @@ function CacheManager(cacheName = 'general') {
 
     this.findItem = async function(requestURL, mimeType = 'application/json') {
 
-       verifyProtocol(requestURL) 
-        
+       verifyProtocol(requestURL)
+
         const reqObj = new Request(requestURL, {
             headers: {
                 'Content-Type': mimeType,
             },
             mode: 'same-origin'
         })
-        
+
         const cache = await openCache()
         const match = await cache.match(reqObj)
         const requestURLSplitted = requestURL.split('/')
-        
+
         if(typeof match === 'undefined') {
             const informationMessage = `The item "${requestURLSplitted[requestURLSplitted.length - 1]}" does not exist into cache "${cacheName}"`
             return { exists: false, msg: informationMessage }
@@ -61,22 +61,22 @@ function CacheManager(cacheName = 'general') {
     }
 
     this.putItem = async function(URLWithItems, mimeType) {
-        
+
         verifyProtocol(URLWithItems)
 
         const responseFromURL = await fetch(URLWithItems)
 
-        if(!responseFromURL.ok) { 
-            
+        if(!responseFromURL.ok) {
+
             const messageError = `An error has occurred when tried to get the items from ${URLWithItems}.`
-            
+
             const statusCode = (statusCode) => ({
                 '404': `[${statusCode}] The error means the request did not find the URL. Verify if the request URL is correct.`
             })[statusCode]
-            
-            throw console.error(messageError, statusCode(responseFromURL.status)) 
+
+            throw console.error(messageError, statusCode(responseFromURL.status))
         }
-        
+
         const cache = await openCache()
         const bodyToSerialize = JSON.stringify((await responseFromURL.json()))
 
@@ -93,7 +93,7 @@ function CacheManager(cacheName = 'general') {
         })
 
         try {
-            
+
             await cache.put(request, itemsResponse)
             console.log(`The items from ${URLWithItems} were added into ${cacheName}`)
 
@@ -107,10 +107,10 @@ function CacheManager(cacheName = 'general') {
         verifyProtocol(requestURL)
 
         const cache = await openCache()
-        
+
         const request = new Request(requestURL, {
             method: 'GET',
-            headers: { 
+            headers: {
                 'Content-Type': mimeType
             }
         })

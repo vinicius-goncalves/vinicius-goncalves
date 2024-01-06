@@ -7,7 +7,7 @@ const dataPath = `${window.origin}/data/languages.json`
 
 async function updateLanguagesCache() {
     const itemsResult = await languagesCache.findItem(dataPath)
-    
+
     if(!itemsResult.exists || itemsResult.exists == undefined) {
         await languagesCache.putItem(dataPath, 'application/json')
         return
@@ -17,7 +17,7 @@ async function updateLanguagesCache() {
 window.addEventListener('DOMContentLoaded', updateLanguagesCache)
 
 countryLanguages.addEventListener('click', async (event) => {
-    
+
     const targetClicked = event.target
 
     if(!(targetClicked instanceof HTMLImageElement)) {
@@ -25,7 +25,7 @@ countryLanguages.addEventListener('click', async (event) => {
     }
 
     const languageClicked = targetClicked.dataset.language
-        
+
     switch(languageClicked) {
         case 'PT-BR':
             localStorage.setItem('current-language', 'PT-BR')
