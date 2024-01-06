@@ -25,15 +25,15 @@ Feel free to know me a little more.
   
   *Those are some of the tools and other technologies I work with:*
     
-  |    💻 client-side    |  🎲 server-side  |      📚 libraries & frameworks     |        🔨 tools        |
-  | :------------------: | :---------------: | :--------------------------------: | :---------------------: |
-  |                      |                   |                                    |                         |
-  | ![][javascript]      | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
-  | ![][html]            | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |
-  | ![][markdown]        | ![][java]         | ![][vue]                           | ![][postman]            |
-  | ![][typescript]      | **-**             | ![][jwt]                           | ![][git]                |
-  | **-**                | **-**             | **-**                              | **-**                   |
+  |    💻 programming-languages      |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    |
+  | :------------------:              | :---------------: | :--------------------------------: | :---------------------: |
+  |                                   |                   |                                    |                         |
+  | ![][javascript]                   | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
+  | ![][html]                         | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |
+  | ![][css]                          | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |
+  | ![][typescript]                   | **-**             | ![][vue]                           | ![][postman]            |
+  | **-**                             | **-**             | ![][jwt]                           | ![][git]                |
+  | **-**                             | **-**             | **-**                              | ![][markdown]           |
   
 </div>
 
