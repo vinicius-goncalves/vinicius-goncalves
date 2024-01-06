@@ -25,7 +25,7 @@ Feel free to know me a little more.
   
   *Those are some of the tools and other technologies I work with:*
     
-  |    💻 programming-languages      |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    |
+  |    💻 languages                   |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    |
   | :------------------:              | :---------------: | :--------------------------------: | :---------------------: |
   |                                   |                   |                                    |                         |
   | ![][javascript]                   | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
