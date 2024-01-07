@@ -1,0 +1,28 @@
+[
+    {
+        "type": "Folder",
+        "name": "javascript",
+        "subFolder": [
+            {
+                "type": "File",
+                "name": "quiz-answers-and-creations.js",
+                "src": "https://github.com/vinicius-goncalves/quiz-answers-and-creations"
+            },
+            {
+                "type": "File",
+                "name": "folders-structure.js",
+                "src": "https://github.com/vinicius-goncalves/folders-structure"
+            },
+            {
+                "type": "Folder",
+                "name": "another-folder",
+                "subFolder": [
+                    {
+                        "type": "File",
+                        "name": "empty-file.txt"
+                    }
+                ]
+            }
+        ]
+    }
+]

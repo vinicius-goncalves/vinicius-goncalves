@@ -1,0 +1,265 @@
+<!--
+    PROJECT UNDER LICENSE GPL-3.0
+    COPYRIGHT BY vinicius-goncalves.com
+    ORIGINAL SOURCE v1.0.4 https://github.com/vinicius-goncalves
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR,en-US">
+    <head>
+        <title>Sobre Mim | vinicius-goncalves.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="github@vinicius-goncalves">
+        <link rel="stylesheet" href="./style/main-style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="images/favicon.jpg" rel="icon" type="image/x-icon">
+
+        <link
+            rel="stylesheet"
+            href="./style/features/navbar.css">
+
+        <link
+            rel="stylesheet"
+            href="./style/animations/opacity.css">
+
+        <style>
+
+            footer {
+                margin-top: 15px;
+
+                & div[data-footer="container"] {
+                    display: flex;
+                    justify-content: space-around;
+
+                    & section[data-footer-section="links"] {
+                        display: flex;
+                        gap: 100px;
+                    }
+                }
+            }
+
+            section[data-footer-section="about-me"] {
+
+                display: flex;
+                flex-direction: column;
+
+                & [data-about-me="title"] {
+                    font-weight: normal;
+                    font-size: .9rem;
+                }
+
+                & [data-about-me="contact-email"], [data-about-me="licenses"] {
+                    color: #6c6c6c;
+                    font-size: .65rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header data-html-element="main-header">
+            <nav data-main-header="main-nav">
+                <a href="#" data-main-nav="anchor" data-language-text="home-anchor">Início</a>
+                <a href="#about-me" data-main-nav="anchor" data-language-text="about-me-anchor">Sobre</a>
+                <a href="#skills" data-main-nav="anchor" data-language-text="stack-anchor">Stack</a>
+                <a href="./projects.html" data-main-nav="anchor" data-language-text="projects-anchor">Projetos</a>
+                <!-- <div class="country-languages">
+                    <span data-language-text="language-select">Idioma: (Language)</span>
+                    <div>
+                        <img data-language="PT-BR" src="./images/flags/br.png">
+                        <img data-language="EN-US" src="./images/flags/us.png">
+                    </div>
+                </div> -->
+            </nav>
+            <section data-lore="initial">
+                <h1 data-initial-lore="word" data-language-text="greeting-word">Olá!</h1>
+                <p data-initial-lore="description" data-language-text="welcome-lore">Meu nome é Vinícius e atualmente sou programador client-side. Fique à vontade para me conhecer um pouco mais.</p>
+                <span data-initial-lore="see-more__icon" class="material-icons">expand_more</span>
+            </section>
+        </header>
+
+        <hr style="margin: 100px; border: none; border-bottom: 1px solid #CCCCCC;">
+
+        <section data-html-element="about-me" id="about-me" style="width: 100%;">
+            <div>
+                <h2 style="text-align: center;">Sobre mim</h2>
+                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
+                    Me apresentando melhor, me chamo Vinícius e gostaria de contar como comecei. Tudo começou quando configurava servidores de Minecraft,
+                    aos 13 anos, mas só então aos 15 anos comecei a estudar Java para criar plugins para esses servidores. Após um tempo dei uma pausa
+                    por um pequeno período, mas decidi voltar a programar, mas desta vez, com a linguagem JavaScript, e desde 2019 me aprofundei no client-side
+                    com JavaScript, HTML e CSS, e fui aprofundando em outras tecnologias como TypeScript, NodeJs, Vue, etc. - toda minha evolução está no meu perfil do Github.
+                </p>
+            </div>
+            <div>
+                <h2 style="text-align: center;">Experiências</h2>
+                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
+                    Possuo experiência em construção de websites e aplicações específicas, criação e consumo de APIs, além de gerenciamento e utilização de bancos de dados
+                    relacionais e não relacionais MySQL, MongoDB, Firestore - além de suas bibliotecas para as linguagens JavaScript/TypeScript. Não podendo esquecer também as demais tecnologias citadas em "<a href="#stack" style="color: #6c6c6c">Stack</a>".
+                    Conhecimento avançado em inglês, consigo entender e criar ideas complexas.
+                </p>
+            </div>
+            <div>
+                <h2 style="text-align: center;">Educação</h2>
+                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
+                    Atualmente cursando Engenharia de Software. Ingressei no curso logo após finalizar o ensino médio, então, em 2022 ingressei
+                    na Universidade Norte do Paraná (UNOPAR) para bacharel em Engenharia de Software.
+                </p>
+            </div>
+        </section>
+
+        <hr style="margin: 100px; border: none; border-bottom: 1px solid #CCCCCC;">
+
+
+        <main class="stack" id="stack">
+
+            <h2 data-language-text="language-h2-skills">Stack</h2>
+
+            <p style="font-size: .9rem; font-weight: normal; margin: 15px; color: #808080">linguagens</p>
+
+            <div data-stack="languages">
+                <article data-stack-language="typescript">
+                    <figure>
+                        <img src="assets/images/logos/languages/typescript-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>Typescript</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-stack-language="javascript">
+                    <figure>
+                        <img src="assets/images/logos/languages/javascript-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>JavaScript</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-stack-language="html">
+                    <figure>
+                        <img src="assets/images/logos/languages/html-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>HTML</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-stack-language="css">
+                    <figure>
+                        <img src="assets/images/logos/languages/css-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>CSS</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+
+            <p style="font-size: .9rem; font-weight: normal; margin: 15px; color: #808080">server side</p>
+
+            <div data-stack="server-side">
+                <article data-server-side="mongodb">
+                    <figure>
+                        <img src="assets/images/logos/server-side/mongodb-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>MongoDB</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-server-side="nodejs">
+                    <figure>
+                        <img src="assets/images/logos/server-side/nodejs-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>NodeJS</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-server-side="mysql">
+                    <figure>
+                        <img src="assets/images/logos/server-side/mysql-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>MySQL</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+
+            <p style="font-size: .9rem; font-weight: normal; margin: 15px; color: #808080">bibliotecas e frameworks</p>
+
+            <div data-stack="libraries-frameworks">
+                <article data-libraries-frameworks="mongoose">
+                    <figure>
+                        <img src="assets/images/logos/libraries-frameworks/mongoose-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>Mongoose</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-libraries-frameworks="firebase">
+                    <figure>
+                        <img src="assets/images/logos/libraries-frameworks/firebase-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>Firebase</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-libraries-frameworks="expressjs">
+                    <figure>
+                        <img src="assets/images/logos/libraries-frameworks/expressjs-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>Express.js</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-libraries-frameworks="vuejs">
+                    <figure>
+                        <img src="assets/images/logos/libraries-frameworks/vuejs-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>Vue.js</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article data-libraries-frameworks="jwt">
+                    <figure>
+                        <img src="assets/images/logos/libraries-frameworks/jwt-logo-256x256.png" width="64">
+                        <figcaption>
+                            <h2>JWT</h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <hr data-footer="horizontal-bar" >
+            <div data-footer="container">
+                <section data-footer-section="about-me">
+                    <h2 data-about-me="title">Vinícius Gonçalves</h2>
+                    <p data-about-me="contact-email">contato@vinicius-goncalves.com</p>
+                    <p data-about-me="licenses">License GPL-3</p>
+                </section>
+                <section data-footer-section="links">
+                    <div>
+                        <h2>Links</h2>
+                        <nav>
+                            <a href="https://github.com/vinicius-goncalves" rel="noopener noreferrer" target="_blank">Github</a>
+                            <a href="https://linktr.ee/expertvinicius" rel="noopener noreferrer" target="_blank">Linktr.ee</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <h2>Outros</h2>
+                        <nav>
+                            <a
+                                href="https://productexperts.withgoogle.com/directory/1aef0e14-e468-4ffd-80e2-470bae661550"
+                                rel="noopener noreferrer"
+                                target="_blank">Perfil Experts do Google</a>
+                        </nav>
+                    </div>
+                <section>
+            </div>
+        </footer>
+        <!-- <footer style="text-align: center; padding: 10px;">
+            <a href="https://github.com/vinicius-goncalves" target="_blank" rel="external" class="a_links" data-language-text="invite-to-go-github">Visite meu perfil no Github e saiba mais.</a></p>
+            <small>Este site está sob licença GPL 3.0, criado por vinicius-goncalves.com</small>
+        </footer> -->
+        <script src="./app/app.js" type="module"></script>
+        <script src="./app/storage/cache-manager.js" type="module"></script>
+        <script src="./app/language-control.js" type="module"></script>
+        <script src="./animations/utils.js"></script>
+    </body>
+</html>

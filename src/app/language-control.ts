@@ -1,4 +1,4 @@
-import { CacheManager } from './storage/cache-manager.js'
+import { CacheManager } from '../storage/cache-manager.js'
 
 const countryLanguages = document.querySelector('.country-languages')
 

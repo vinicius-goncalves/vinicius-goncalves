@@ -1,0 +1,16 @@
+.active-x-opacity-effect {
+    animation: opacity-effect 1s;
+    opacity: 1;
+}
+
+@keyframes opacity-effect {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
