@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{margin:0;padding:0;box-sizing: border-box;user-select: none; }
+* { margin: 0; padding: 0; box-sizing: border-box; user-select: none; }
 
 .material-symbols-sharp {
     color: #222526;
@@ -18,7 +18,7 @@ header[data-html-element="main-header"] {
     & [data-main-header="small-description"] {
 
         color: #6c6c6c;
-        font-size: .7rem;
+        font-size: .85rem;
 
         & [data-small-description="inline-folder"] {
             padding: 0 5px;
@@ -119,5 +119,15 @@ main[data-directory="folders-container"] {
     & span {
         background-color: #f3f3f3;
         border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    :is([data-folder-container="folder-details"], [data-file-container="file-details"]) {
+        font-size: 1.5rem;
+    }
+
+    & [data-file-container="file-details"] > img {
+        width: 24px;
     }
 }
