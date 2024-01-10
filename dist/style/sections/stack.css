@@ -1,0 +1,41 @@
+section[data-html-element="stack"] {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & [data-stack] {
+        display: flex;
+        gap: 50px;
+        margin: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 15px 22px 57px -21px #575555a6;
+        -webkit-box-shadow: 15px 22px 57px -21px #575555a6;
+        -moz-box-shadow: 15px 22px 57px -21px #575555a6;
+    }
+
+    & article {
+
+        text-align: center;
+
+        & h2 {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    section[data-html-element="stack"] {
+
+        & [data-stack] {
+            flex-direction: column;
+            width: fit-content;
+        }
+    }
+}

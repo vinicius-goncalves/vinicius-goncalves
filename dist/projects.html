@@ -1,76 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <title>Projetos | vinicius-goncalves.com</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <style>
-
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-            *{margin:0;padding:0;box-sizing: border-box;user-select: none; }
-
-            body {
-                font: 17px 'Poppins';
-            }
-
-            header {
-
-                margin: 15px;
-
-            }
-
-            main[data-directory="container"] {
-
-                margin: 15px;
-            }
-
-            /* [class="content-details"]:hover {
-                background-color: beige;
-                cursor: pointer;
-            } */
-
-            [data-folder="container"] {
-                & .content-details {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    cursor: pointer;
-                }
-
-                & [data-folder="container-subcontent"] {
-                    margin-left: 15px;
-                }
-            }
-
-            .material-symbols-sharp {
-                color: #a5bac4;
-                font-variation-settings: 'FILL' 1;
-            }
-
-            a {
-                text-decoration: none;
-                color: #0D0D0D;
-            }
-
-            a:hover {
-                text-decoration: underline;
-            }
-
-        </style>
+        <link rel="stylesheet" href="./style/projects.css" type="text/css">
     </head>
     <body>
 
-        <a href="./index.html">Go back</a>
+        <a data-anchor="go-to-home" href="./index.html">
+            <span class="material-symbols-sharp">arrow_back</span>
+            <p>Return</p>
+        </a>
 
-        <header>
-            <hgroup>
-                <h1>Projects</h1>
-                <p>Checkout out some of my projects as a folder directory format!</p>
+        <header data-html-element="main-header">
+            <hgroup data-main-header="page-description">
+                <h1 data-page-description="title">Project</h1>
+                <p data-page-description="description">Check it out some of my projects in the shape of folders directory.</p>
             </hgroup>
+            <small data-main-header="small-description" >
+                The projects can be distinguished by their languages and technologies.
+                Therefore, projects built with or using TypeScript will be placed in
+                    <div data-small-description="inline-folder">
+                        <span data-inline-folder="icon" class="material-symbols-sharp">folder</span>
+                        <p data-inline-folder="folder-name">typescript</p>
+                    </div>
+                folder.
+                <br>
+            </small>
         </header>
 
-        <main data-directory="container"></main>
+        <main data-directory="folders-container"></main>
 
-        <script src="features/folder-structure/render-folders.js" type="module"></script>
+        <script src="features/directory/directories-creator.js" type="module"></script>
     </body>
 </html>

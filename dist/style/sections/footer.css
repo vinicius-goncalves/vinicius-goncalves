@@ -1,0 +1,65 @@
+footer[data-html-element="bottom-footer"] {
+
+    & [data-footer="horizontal-bar"] {
+        margin: 25px;
+        border: none;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+    & [data-footer="container"] {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+    }
+
+    & [data-footer-section="links"] {
+        display: flex;
+        gap: 25px;
+    }
+
+    & [data-footer-section="about-me"] {
+
+        & [data-about-me="title"] {
+            font-weight: 500;
+            font-size: .8rem;
+        }
+
+        & :is([data-about-me="contact-email"], [data-about-me="licenses"]) {
+            font-size: .7rem;
+            color: #6c6c6c;
+        }
+    }
+
+    & [data-footer-section="links"] {
+
+        & [data-footer-links] {
+            font-size: .75rem;
+            font-weight: normal;
+        }
+    }
+
+    & nav[data-links="nav"] {
+
+        display: flex;
+        flex-direction: column;
+
+        & a {
+            font-size: .75rem;
+            color: #6c6c6c;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    div[data-footer="container"] {
+        flex-direction: column;
+        gap: 35px;
+    }
+}

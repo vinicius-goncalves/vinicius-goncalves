@@ -1,0 +1,33 @@
+/* section[data-footer-section="about-me"] {
+
+    display: flex;
+    flex-direction: column;
+
+    & [data-about-me="title"] {
+        font-weight: normal;
+        font-size: .9rem;
+    }
+
+    & [data-about-me="contact-email"], [data-about-me="licenses"] {
+        color: #6c6c6c;
+        font-size: .65rem;
+    }
+} */
+
+[data-html-element="about-me"] {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    & > * {
+        flex-basis: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    [data-html-element="about-me"] {
+        display: block;
+    }
+}

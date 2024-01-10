@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin:0;padding:0;box-sizing: border-box;user-select: none; }
+
+.material-symbols-sharp {
+    color: #222526;
+    font-variation-settings: 'FILL' 1;
+}
+
+body {
+    font: 17px 'Poppins';
+}
+
+header[data-html-element="main-header"] {
+
+    margin: 15px;
+
+    & [data-main-header="small-description"] {
+
+        color: #6c6c6c;
+        font-size: .7rem;
+
+        & [data-small-description="inline-folder"] {
+            padding: 0 5px;
+            background-color: #eeeeee;
+            border-radius: 3px;
+            display: inline-flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 3px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0 5px;
+            color: #0D0D0D;
+
+            & [data-inline-folder="icon"] {
+                font-size: .9rem;
+            }
+
+            & [data-inline-folder="folder-name"] {
+                display: inline;
+                font-size: .9rem;
+            }
+        }
+    }
+}
+
+main[data-directory="folders-container"] {
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .5px;
+    padding: 15px;
+    border-radius: 17px;
+}
+
+:is([data-folder="container"], [data-file="container"]) {
+
+    & :is([data-folder-container="folder-details"], [data-file-container="file-details"]) {
+
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        cursor: pointer;
+
+        & [data-folder-details="name"] {
+            transition: color 100ms;
+        }
+    }
+
+    & :is([data-folder-container="folder-details"], [data-file-container="file-details"]):hover {
+        background-color: #f3f3f3;
+    }
+
+    & [data-folder="container-subcontent"] {
+        margin-left: 15px;
+    }
+}
+
+[data-file="container"] {
+
+    & [data-folder-details="open_in_new-icon"] {
+        display: none;
+    }
+
+    & [data-file-container="file-details"]:hover [data-folder-details="open_in_new-icon"] {
+        display: block;
+        font-size: .9rem;
+    }
+
+    & [data-file-details="name"] {
+        text-decoration: none;
+        color: #0D0D0D;
+    }
+
+    & [data-file-details="name"]:hover {
+        text-decoration: underline;
+    }
+}
+
+[data-anchor="go-to-home"] {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px;
+    gap: 7px;
+    color: #0D0D0D;
+
+    & span {
+        padding: 5px;
+    }
+
+    & p {
+        font-size: .9rem;
+    }
+}
+
+[data-anchor="go-to-home"]:hover {
+
+    & span {
+        background-color: #f3f3f3;
+        border-radius: 50%;
+    }
+}

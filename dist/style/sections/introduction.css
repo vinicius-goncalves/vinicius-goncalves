@@ -1,0 +1,30 @@
+header[data-html-element="main-header"] {
+
+    position: relative;
+    min-height: 100vh;
+
+    & section[data-main-header="introduction"] {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+
+        & > * {
+            opacity: 0;
+        }
+    }
+
+    & :is(*.visible-element, nav[data-main-header="main-nav"].visible-element) {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    & [data-main-header="introduction"] {
+        font-size: .75rem;
+    }
+}

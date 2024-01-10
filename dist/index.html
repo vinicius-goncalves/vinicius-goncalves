@@ -10,7 +10,7 @@
         <title>Sobre Mim | vinicius-goncalves.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="github@vinicius-goncalves">
-        <link rel="stylesheet" href="./style/main-style.css">
+        <link rel="stylesheet" href="./style/main.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="images/favicon.jpg" rel="icon" type="image/x-icon">
 
@@ -20,40 +20,20 @@
 
         <link
             rel="stylesheet"
-            href="./style/animations/opacity.css">
+            href="./style/sections/stack.css">
 
-        <style>
+        <link
+            rel="stylesheet"
+            href="./style/sections/about-me.css">
 
-            footer {
-                margin-top: 15px;
+        <link
+            rel="stylesheet"
+            href="./style/sections/introduction.css">
 
-                & div[data-footer="container"] {
-                    display: flex;
-                    justify-content: space-around;
+        <link
+            rel="stylesheet"
+            href="./style/sections/footer.css">
 
-                    & section[data-footer-section="links"] {
-                        display: flex;
-                        gap: 100px;
-                    }
-                }
-            }
-
-            section[data-footer-section="about-me"] {
-
-                display: flex;
-                flex-direction: column;
-
-                & [data-about-me="title"] {
-                    font-weight: normal;
-                    font-size: .9rem;
-                }
-
-                & [data-about-me="contact-email"], [data-about-me="licenses"] {
-                    color: #6c6c6c;
-                    font-size: .65rem;
-                }
-            }
-        </style>
     </head>
     <body>
         <header data-html-element="main-header">
@@ -70,7 +50,7 @@
                     </div>
                 </div> -->
             </nav>
-            <section data-lore="initial">
+            <section data-main-header="introduction">
                 <h1 data-initial-lore="word" data-language-text="greeting-word">Olá!</h1>
                 <p data-initial-lore="description" data-language-text="welcome-lore">Meu nome é Vinícius e atualmente sou programador client-side. Fique à vontade para me conhecer um pouco mais.</p>
                 <span data-initial-lore="see-more__icon" class="material-icons">expand_more</span>
@@ -108,8 +88,7 @@
 
         <hr style="margin: 100px; border: none; border-bottom: 1px solid #CCCCCC;">
 
-
-        <main class="stack" id="stack">
+        <section data-html-element="stack" id="stack">
 
             <h2 data-language-text="language-h2-skills">Stack</h2>
 
@@ -223,9 +202,9 @@
                     </figure>
                 </article>
             </div>
-        </main>
+        </section>
 
-        <footer class="footer">
+        <footer data-html-element="bottom-footer">
             <hr data-footer="horizontal-bar" >
             <div data-footer="container">
                 <section data-footer-section="about-me">
@@ -235,15 +214,15 @@
                 </section>
                 <section data-footer-section="links">
                     <div>
-                        <h2>Links</h2>
-                        <nav>
+                        <h2 data-footer-links="links">Links</h2>
+                        <nav data-links="nav">
                             <a href="https://github.com/vinicius-goncalves" rel="noopener noreferrer" target="_blank">Github</a>
                             <a href="https://linktr.ee/expertvinicius" rel="noopener noreferrer" target="_blank">Linktr.ee</a>
                         </nav>
                     </div>
                     <div>
-                        <h2>Outros</h2>
-                        <nav>
+                        <h2 data-footer-links="other">Outros</h2>
+                        <nav data-links="nav">
                             <a
                                 href="https://productexperts.withgoogle.com/directory/1aef0e14-e468-4ffd-80e2-470bae661550"
                                 rel="noopener noreferrer"
@@ -253,10 +232,7 @@
                 <section>
             </div>
         </footer>
-        <!-- <footer style="text-align: center; padding: 10px;">
-            <a href="https://github.com/vinicius-goncalves" target="_blank" rel="external" class="a_links" data-language-text="invite-to-go-github">Visite meu perfil no Github e saiba mais.</a></p>
-            <small>Este site está sob licença GPL 3.0, criado por vinicius-goncalves.com</small>
-        </footer> -->
+
         <script src="./app/app.js" type="module"></script>
         <script src="./app/storage/cache-manager.js" type="module"></script>
         <script src="./app/language-control.js" type="module"></script>

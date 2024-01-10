@@ -3,10 +3,7 @@ import applyXNavbarTransition from '../animations/_x-navbar-transition.js';
 
 const mainHeader = document.querySelector('[data-html-element="main-header"]') as HTMLElement;
 const mainNavbar = mainHeader.querySelector('[data-main-header="main-nav"]') as HTMLElement;
-const initialLore = mainHeader.querySelector('[data-lore="initial"]') as HTMLElement;
-
-const aboutMe = document.querySelector('[data-html-element="about-me"]') as HTMLElement;
-
+const initialLore = mainHeader.querySelector('[data-main-header="introduction"]') as HTMLElement;
 function applyAnimation(element: HTMLElement, index: number) {
 
     const delayDifference = (index * 100) + 100;
@@ -32,8 +29,4 @@ window.addEventListener('DOMContentLoaded', (): void => {
 
 window.addEventListener('scroll', () => {
     mainNavbar.classList.toggle('navbar-background-color', window.scrollY >= 15);
-
-    if(window.scrollY >= 500) {
-        applyYOpacityAnimation(aboutMe);
-    }
 });

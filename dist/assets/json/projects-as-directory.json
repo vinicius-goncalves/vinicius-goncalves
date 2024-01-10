@@ -1,0 +1,82 @@
+[
+    {
+        "type": "Folder",
+        "name": "javascript",
+        "subFolder": [
+            {
+                "type": "Folder",
+                "name": "frontend",
+                "subFolder": [
+                    {
+                        "type": "File",
+                        "name": "quiz-answers-and-creations.js",
+                        "src": "https://github.com/vinicius-goncalves/quiz-answers-and-creations"
+                    },
+                    {
+                        "type": "File",
+                        "name": "folders-structure.js",
+                        "src": "https://github.com/vinicius-goncalves/folders-structure"
+                    },
+                    {
+                        "type": "File",
+                        "name": "store-files.js",
+                        "src": "https://github.com/vinicius-goncalves/store-files"
+                    }
+                ]
+            },
+            {
+                "type": "Folder",
+                "name": "backend",
+                "subFolder": [
+                    {
+                        "type": "File",
+                        "name": "remember-me-to-movie.js",
+                        "src": "https://github.com/vinicius-goncalves/remember-me-to-movie"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Folder",
+        "name": "typescript",
+        "subFolder": [
+            {
+                "type": "Folder",
+                "name": "frontend",
+                "subFolder": [
+                    {
+                        "type": "File",
+                        "name": "vintage-shopping.ts",
+                        "src": "https://github.com/vinicius-goncalves/vintage-shopping"
+                    },
+                    {
+                        "type": "File",
+                        "name": "pagination.ts",
+                        "src": "https://github.com/vinicius-goncalves/pagination"
+                    }
+                ]
+            },
+            {
+                "type": "Folder",
+                "name": "studies",
+                "subFolder": {
+                    "type": "File",
+                    "name": "(simple neural network) perceptron.ts",
+                    "src": "https://github.com/vinicius-goncalves/perceptron-ts"
+                }
+            }
+        ]
+    },
+    {
+        "type": "Folder",
+        "name": "vue.js",
+        "subFolder": [
+            {
+                "type": "File",
+                "name": "games-collection-with-vue.vue",
+                "src": "https://github.com/vinicius-goncalves/games-collection-with-vue"
+            }
+        ]
+    }
+]
