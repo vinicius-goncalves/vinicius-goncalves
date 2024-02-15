@@ -11,12 +11,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="github@vinicius-goncalves">
         <link rel="stylesheet" href="./style/main.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon">
 
         <link
             rel="stylesheet"
-            href="./style/features/navbar.css">
+            href="./style/features/sidebar.css">
+
+        <link
+            rel="stylesheet"
+            href="./style/features/slide.css">
 
         <link
             rel="stylesheet"
@@ -36,57 +40,72 @@
 
     </head>
     <body>
-        <header data-html-element="main-header">
-            <nav data-main-header="main-nav">
-                <a href="#" data-main-nav="anchor" data-language-text="home-anchor">Início</a>
-                <a href="#about-me" data-main-nav="anchor" data-language-text="about-me-anchor">Sobre</a>
-                <a href="#skills" data-main-nav="anchor" data-language-text="stack-anchor">Stack</a>
-                <a href="./projects.html" data-main-nav="anchor" data-language-text="projects-anchor">Projetos</a>
-                <!-- <div class="country-languages">
-                    <span data-language-text="language-select">Idioma: (Language)</span>
-                    <div>
-                        <img data-language="PT-BR" src="./images/flags/br.png">
-                        <img data-language="EN-US" src="./images/flags/us.png">
-                    </div>
-                </div> -->
+
+        <span class="material-symbols-outlined external-sidebar-btn" data-sidebar-btn="wrapper" role="button">menu</span>
+
+        <div data-sidebar="wrapper" data-sidebar-visibility="hidden">
+            <nav data-sidebar="content">
+                <span class="material-symbols-outlined internal-sidebar-btn" data-sidebar-btn="wrapper" role="button">close</span>
+                <div data-sidebar-content="links">
+                    <a href="#" data-sidebar-anchor="home">
+                        <span class="material-symbols-outlined">home</span>
+                        <span>Início</span>
+                    </a>
+                    <a href="#gallery" data-sidebar-anchor="gallery">
+                        <span class="material-symbols-outlined">gallery_thumbnail</span>
+                        <span>Galeria</span>
+                    </a>
+                    <a href="#stack" data-sidebar-anchor="stack">
+                        <span class="material-symbols-outlined">build</span>
+                        <span>Stack</span>
+                    </a>
+
+                    <hr class="small-divisor">
+
+                    <a href="./projects.html" data-sidebar-anchor="anchor" rel="noopener noreferrer" target="_top">
+                        <span class="material-symbols-outlined">folder</span>
+                        <span>Projetos</span>
+                        <span class="material-symbols-outlined hover-icon">open_in_new</span>
+                    </a>
+                </div>
             </nav>
+        </div>
+
+        <header data-html-element="main-header" id="home">
             <section data-main-header="introduction">
-                <h1 data-initial-lore="word" data-language-text="greeting-word">Olá!</h1>
-                <p data-initial-lore="description" data-language-text="welcome-lore">Meu nome é Vinícius e atualmente sou programador client-side. Fique à vontade para me conhecer um pouco mais.</p>
-                <span data-initial-lore="see-more__icon" class="material-icons">expand_more</span>
+                <hgroup>
+                    <h1 data-initial-lore="word" data-language-text="greeting-word">Olá!</h1>
+                    <p data-initial-lore="description" data-language-text="welcome-lore">Meu nome é Vinícius, programador full-stack. Fique à vontade, e conheça alguns dos meus projetos.</p>
+                </hgroup>
+                <span data-initial-lore="see-more__icon" class="material-symbols-outlined">expand_more</span>
             </section>
         </header>
 
-        <hr style="margin: 100px; border: none; border-bottom: 1px solid #CCCCCC;">
+        <hr class="divisor">
 
-        <section data-html-element="about-me" id="about-me" style="width: 100%;">
-            <div>
-                <h2 style="text-align: center;">Sobre mim</h2>
-                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
-                    Me apresentando melhor, me chamo Vinícius e gostaria de contar como comecei. Tudo começou quando configurava servidores de Minecraft,
-                    aos 13 anos, mas só então aos 15 anos comecei a estudar Java para criar plugins para esses servidores. Após um tempo dei uma pausa
-                    por um pequeno período, mas decidi voltar a programar, mas desta vez, com a linguagem JavaScript, e desde 2019 me aprofundei no client-side
-                    com JavaScript, HTML e CSS, e fui aprofundando em outras tecnologias como TypeScript, NodeJs, Vue, etc. - toda minha evolução está no meu perfil do Github.
-                </p>
+        <section data-html-element="gallery" id="gallery" style="width: 100%; margin: auto;">
+            <hgroup style="text-align: center;">
+                <h2>Galeria</h2>
+                <p style="font-size: .9rem; font-weight: normal; margin: 15px; color: #808080">Confira alguns projetos</p>
+            </hgroup>
+            <div data-gallery="wrapper">
+                <div data-gallery="images">
+                    <img data-gallery="image" src="assets/images/slide/image-1.jpg">
+                    <img data-gallery="image" src="assets/images/slide/image-2.jpg">
+                </div>
             </div>
-            <div>
-                <h2 style="text-align: center;">Experiências</h2>
-                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
-                    Possuo experiência em construção de websites e aplicações específicas, criação e consumo de APIs, além de gerenciamento e utilização de bancos de dados
-                    relacionais e não relacionais MySQL, MongoDB, Firestore - além de suas bibliotecas para as linguagens JavaScript/TypeScript. Não podendo esquecer também as demais tecnologias citadas em "<a href="#stack" style="color: #6c6c6c">Stack</a>".
-                    Conhecimento avançado em inglês, consigo entender e criar ideas complexas.
-                </p>
+            <div data-gallery="buttons">
+                <span class="material-symbols-outlined gallery-btn" data-gallery-btn="prev" role="button">chevron_left</span>
+                <span class="material-symbols-outlined gallery-btn" data-gallery-btn="next" role="button">chevron_right</span>
             </div>
-            <div>
-                <h2 style="text-align: center;">Educação</h2>
-                <p style="font-size: .85rem; padding: 25px; width: 75%; margin: auto;">
-                    Atualmente cursando Engenharia de Software. Ingressei no curso logo após finalizar o ensino médio, então, em 2022 ingressei
-                    na Universidade Norte do Paraná (UNOPAR) para bacharel em Engenharia de Software.
+            <div style="display: flex; align-items: center; margin: 15px; text-align: center;">
+                <p style="font-size: .8rem; font-weight: normal; color: #808080">
+                    Gostou? Confira mais projetos, clicando em "Projetos" no menu.
                 </p>
             </div>
         </section>
 
-        <hr style="margin: 100px; border: none; border-bottom: 1px solid #CCCCCC;">
+        <hr class="divisor">
 
         <section data-html-element="stack" id="stack">
 
@@ -255,8 +274,9 @@
         </footer>
 
         <script src="./app/app.js" type="module"></script>
-        <script src="./app/storage/cache-manager.js" type="module"></script>
-        <script src="./app/language-control.js" type="module"></script>
-        <script src="./animations/utils.js"></script>
+        <script src="./animations/utils.js" type="module"></script>
+        <script src="./features/sidebar/sidebar-control.js" type="module"></script>
+        <script src="./features/slide/slide.js" type="module"></script>
+
     </body>
 </html>

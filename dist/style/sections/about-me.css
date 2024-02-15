@@ -14,15 +14,13 @@
     }
 } */
 
-[data-html-element="about-me"] {
+[data-html-element="gallery"] {
 
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-direction: column;
 
-    & > * {
-        flex-basis: calc(100% / 2);
-    }
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 700px) {

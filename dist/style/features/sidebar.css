@@ -1,0 +1,101 @@
+body {
+
+    & span.external-sidebar-btn {
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        font-size: 1.5rem;
+        z-index: 1;
+        margin: 5px;
+        transition: background-color 200ms;
+        border-radius: 50%;
+    }
+
+    & span.external-sidebar-btn:hover {
+        cursor: pointer;
+        background-color: #8a8a8a25;
+    }
+}
+
+[data-sidebar="wrapper"] {
+
+    display: none;
+    transition: width 1s;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    background-color: #0000003b;
+    z-index: 1;
+
+    & [data-sidebar="content"] {
+
+        position: relative;
+        background-color: white;
+        height: 100%;
+        max-width: 25%;
+        min-width: fit-content;
+        box-shadow: 5px 5px 15px #00000045;
+
+        & [data-sidebar-content="links"] {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & [data-sidebar-anchor] {
+
+            display: flex;
+            align-items: center;
+            font-size: .9rem;
+
+            & > span {
+                padding: .75rem .25rem;
+            }
+        }
+
+        [data-sidebar-anchor]:hover:not(.active-section) {
+            background-color: #adadad33;
+            cursor: pointer;
+        }
+
+        .hover-icon {
+            display: none;
+        }
+
+        [data-sidebar-anchor]:hover:not(.active-section) .hover-icon {
+            display: block;
+            font-size: .9rem;
+        }
+
+        & > div a {
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        & .internal-sidebar-btn {
+            padding: 5px;
+            position: absolute;
+            right: -15px;
+            background-color: white;
+            border-radius: 50%;
+            bottom: 5%;
+            font-size: 1.9rem;
+            cursor: pointer;
+            transition: color 200ms;
+        }
+
+        & .internal-sidebar-btn:hover {
+            cursor: pointer;
+            color: #424242;
+        }
+    }
+}
+
+.active-section {
+    background-color: black;
+}
+
+.active-section :is(a, span) {
+    color: white !important;
+}

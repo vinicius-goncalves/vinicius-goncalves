@@ -116,4 +116,5 @@ function loadContent(content: Content, root: HTMLElement) {
 }
 
 directory.forEach((content: Content) => loadContent(content, foldersDirectory));
+
 foldersDirectory.addEventListener('click', toggleFolderVisibility);

@@ -1,9 +1,9 @@
 import applyYOpacityAnimation from '../animations/_y-opacity-effect.js';
-import applyXNavbarTransition from '../animations/_x-navbar-transition.js';
+import sidebarControl from '../features/sidebar/sidebar-control.js';
 
 const mainHeader = document.querySelector('[data-html-element="main-header"]') as HTMLElement;
-const mainNavbar = mainHeader.querySelector('[data-main-header="main-nav"]') as HTMLElement;
 const initialLore = mainHeader.querySelector('[data-main-header="introduction"]') as HTMLElement;
+
 function applyAnimation(element: HTMLElement, index: number) {
 
     const delayDifference = (index * 100) + 100;
@@ -19,14 +19,13 @@ function loadAnimations() {
     elements.forEach((element: HTMLElement, index: number) => {
         applyAnimation(element, index);
     });
-
-    applyXNavbarTransition(mainNavbar, 600)
 }
 
 window.addEventListener('DOMContentLoaded', (): void => {
+    sidebarControl.updateActiveSection();
     loadAnimations();
 });
 
 window.addEventListener('scroll', () => {
-    mainNavbar.classList.toggle('navbar-background-color', window.scrollY >= 15);
+    sidebarControl.updateActiveSection();
 });

@@ -1,4 +1,5 @@
-export { auxToTimeout };
+"use strict";
+// export { auxToTimeout }
 /**
 
  * Function to help handle with classes and fire setTimeout()
@@ -10,20 +11,25 @@ export { auxToTimeout };
     action: 'add'
 
  */
-function auxToTimeout(obj) {
-    const { verification, cssSelector, classToDoAction, afterMs, action } = obj;
-    const el = document.querySelector(cssSelector);
-    function classListManager() {
-        return el.classList[action](classToDoAction);
-    }
-    if (typeof (verification) === 'null' || typeof verification === 'undefined') {
-        setTimeout(() => {
-            classListManager();
-        }, afterMs);
-    }
-    if (verification) {
-        setTimeout(() => {
-            classListManager();
-        }, afterMs);
-    }
-}
+// function auxToTimeout(obj) {
+//     const {
+//         verification,
+//         cssSelector,
+//         classToDoAction,
+//         afterMs,
+//         action } = obj
+//     const el = document.querySelector(cssSelector)
+//     function classListManager() {
+//         return el.classList[action](classToDoAction)
+//     }
+//     if(typeof (verification) === 'null' || typeof verification === 'undefined') {
+//         setTimeout(() => {
+//             classListManager()
+//         }, afterMs)
+//     }
+//     if(verification) {
+//         setTimeout(() => {
+//             classListManager()
+//         }, afterMs)
+//     }
+// }

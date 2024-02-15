@@ -1,4 +1,4 @@
-export { auxToTimeout }
+// export { auxToTimeout }
 
 /**
 
@@ -11,30 +11,30 @@ export { auxToTimeout }
     action: 'add'
 
  */
-function auxToTimeout(obj) {
+// function auxToTimeout(obj) {
 
-    const {
-        verification,
-        cssSelector,
-        classToDoAction,
-        afterMs,
-        action } = obj
+//     const {
+//         verification,
+//         cssSelector,
+//         classToDoAction,
+//         afterMs,
+//         action } = obj
 
-    const el = document.querySelector(cssSelector)
+//     const el = document.querySelector(cssSelector)
 
-    function classListManager() {
-        return el.classList[action](classToDoAction)
-    }
+//     function classListManager() {
+//         return el.classList[action](classToDoAction)
+//     }
 
-    if(typeof (verification) === 'null' || typeof verification === 'undefined') {
-        setTimeout(() => {
-            classListManager()
-        }, afterMs)
-    }
+//     if(typeof (verification) === 'null' || typeof verification === 'undefined') {
+//         setTimeout(() => {
+//             classListManager()
+//         }, afterMs)
+//     }
 
-    if(verification) {
-        setTimeout(() => {
-            classListManager()
-        }, afterMs)
-    }
-}
+//     if(verification) {
+//         setTimeout(() => {
+//             classListManager()
+//         }, afterMs)
+//     }
+// }
