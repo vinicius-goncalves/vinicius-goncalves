@@ -33,7 +33,7 @@ function buildElement<T extends keyof HTMLElementTagNameMap>(element: T): Elemen
 
         },
 
-        setBuiltInAttribute<K extends keyof HTMLElementTagNameMap[T]> (name: K & string, value: string): ElementBuilder<T> {
+        setBuiltInAttribute<K extends keyof HTMLElementTagNameMap[T]>(name: K & string, value: string): ElementBuilder<T> {
 
             el.setAttribute(name, value);
             return this;

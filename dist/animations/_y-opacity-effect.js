@@ -1,4 +1,4 @@
-import { createAnimation } from './utils.js';
+import { createAnimation } from './animation-creator.js';
 function applyYOpacityAnimation(target, delay, callback) {
     const keyframes = [
         { opacity: 0, transform: 'translateY(50px)' },

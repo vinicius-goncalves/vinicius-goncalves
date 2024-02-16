@@ -1,4 +1,4 @@
-import { createAnimation } from './utils.js';
+import { createAnimation } from './animation-creator.js';
 
 function applyYOpacityAnimation(target: HTMLElement, delay?: number, callback?: (target: HTMLElement) => void) {
 
@@ -8,7 +8,6 @@ function applyYOpacityAnimation(target: HTMLElement, delay?: number, callback?: 
     ];
 
     const options: KeyframeAnimationOptions = { duration: 600, delay, easing: 'ease-in-out' };
-
     createAnimation(target, keyframes, options, callback);
 }
 

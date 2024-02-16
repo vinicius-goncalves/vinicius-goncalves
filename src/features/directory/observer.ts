@@ -1,9 +1,9 @@
 import { toggleFolderIcon } from './utils.js';
 
 const foldersDirectory = document.querySelector('[data-directory="folders-container"]') as HTMLElement;
-// console.log(foldersDirectory)
 
 const observer = new MutationObserver((mutations: MutationRecord[]) => {
+
     mutations.forEach(mutation => {
 
         const folderSubContent = mutation.target as HTMLElement;
@@ -15,7 +15,6 @@ const observer = new MutationObserver((mutations: MutationRecord[]) => {
     });
 });
 
-// const observerOptions =
 observer.observe(foldersDirectory, { subtree: true, attributes: true, attributeFilter: ['[data-is-folder-open]', 'style'] });
 
 export default {};
