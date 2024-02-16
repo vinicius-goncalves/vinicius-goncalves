@@ -1,12 +1,12 @@
 body {
 
     & span.external-sidebar-btn {
-        position: sticky;
+        position: fixed;
         top: 0;
         padding: 10px;
         font-size: 1.5rem;
         z-index: 1;
-        margin: 5px;
+        margin: .5rem;
         transition: background-color 200ms;
         border-radius: 50%;
     }

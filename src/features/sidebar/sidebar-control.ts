@@ -9,12 +9,7 @@ const sidebarAnchors = [...document.querySelectorAll('[data-sidebar-anchor]') as
 const GAP_SECTION_HEIGHT = 400
 
 function isVisible(element: HTMLElement): boolean {
-
-    const rect: DOMRect = element.getBoundingClientRect();
-    const [ elementTop, elementBottom ]: Array<number> = [ rect.top, rect.bottom ];
-
     const scrollTop = window.scrollY + GAP_SECTION_HEIGHT;
-
     return element.offsetTop < scrollTop;
 }
 
@@ -32,7 +27,7 @@ const sidebarControl = {
 
     },
 
-    isVisibilityHidden() {
+    isVisibilityHidden(): boolean {
 
         const visibility: string = this.getSidebarVisibility();
         const hiddenVisibilities: Array<string> = ['', 'none', 'hidden'];
@@ -49,13 +44,13 @@ const sidebarControl = {
 
     },
 
-    toggleVisibility() {
+    toggleVisibility(): void {
 
         const isSidebarHidden: boolean = this.isVisibilityHidden();
         this.setNewVisibility(isSidebarHidden ? 'visible' : 'hidden');
     },
 
-    updateActiveSection() {
+    updateActiveSection(): void {
 
         const visibleSection = [...allSections].reverse().find(section => isVisible(section));
 
@@ -73,7 +68,7 @@ const sidebarControl = {
         sidebarAnchor.classList.add('active-section');
     },
 
-    close() {
+    close(): void {
         sidebarControl.setNewVisibility('hidden');
     }
 }

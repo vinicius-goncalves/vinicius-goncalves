@@ -5,8 +5,6 @@ const allSections = document.querySelectorAll('[id]');
 const sidebarAnchors = [...document.querySelectorAll('[data-sidebar-anchor]')];
 const GAP_SECTION_HEIGHT = 400;
 function isVisible(element) {
-    const rect = element.getBoundingClientRect();
-    const [elementTop, elementBottom] = [rect.top, rect.bottom];
     const scrollTop = window.scrollY + GAP_SECTION_HEIGHT;
     return element.offsetTop < scrollTop;
 }

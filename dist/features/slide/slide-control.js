@@ -16,7 +16,6 @@ function updateIndex(btnClicked) {
 }
 function updateTransformTransition(target) {
     const negativeImageWidth = -1 * getImageWidth();
-    console.log(negativeImageWidth);
     const currPixels = negativeImageWidth * currIndex;
     const pixelsToStr = String(currPixels).concat('px');
     const targetStyle = target.style;

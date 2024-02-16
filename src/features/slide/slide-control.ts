@@ -24,7 +24,6 @@ function updateIndex(btnClicked: ('next' | 'prev')): number {
 function updateTransformTransition(target: HTMLElement): void {
 
     const negativeImageWidth = -1 * getImageWidth();
-    console.log(negativeImageWidth)
     const currPixels = negativeImageWidth * currIndex;
     const pixelsToStr = String(currPixels).concat('px');
 
