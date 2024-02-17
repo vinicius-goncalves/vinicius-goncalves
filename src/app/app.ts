@@ -1,4 +1,4 @@
-import('../utils/modules-loader.js');
+import('../utils/modules-loader.js')
 
 import applyYOpacityAnimation from '../animations/_y-opacity-effect.js';
 import sidebarControl from '../features/sidebar/sidebar-control.js';

@@ -115,6 +115,22 @@ function loadContent(content: Content, root: HTMLElement) {
     }
 }
 
-directory.forEach((content: Content) => loadContent(content, foldersDirectory));
+function removeLoader(): void {
+
+    const wrapperLoader = document.querySelector('[data-loader="wrapper"]');
+
+    if(!wrapperLoader) {
+        return;
+    }
+
+    wrapperLoader.remove();
+}
+
+function handleContentRender(): void {
+    directory.forEach((content: Content) => loadContent(content, foldersDirectory));
+    removeLoader();
+}
+
+handleContentRender();
 
 foldersDirectory.addEventListener('click', toggleFolderVisibility);
