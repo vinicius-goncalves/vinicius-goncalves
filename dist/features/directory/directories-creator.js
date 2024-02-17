@@ -85,5 +85,16 @@ function loadContent(content, root) {
         root.appendChild(folder);
     }
 }
-directory.forEach((content) => loadContent(content, foldersDirectory));
+function removeLoader() {
+    const wrapperLoader = document.querySelector('[data-loader="wrapper"]');
+    if (!wrapperLoader) {
+        return;
+    }
+    wrapperLoader.remove();
+}
+function handleContentRender() {
+    directory.forEach((content) => loadContent(content, foldersDirectory));
+    removeLoader();
+}
+handleContentRender();
 foldersDirectory.addEventListener('click', toggleFolderVisibility);
