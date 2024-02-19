@@ -22,12 +22,14 @@
         & img {
             width: 700px;
             height: 100%;
+            /* object-fit: none; */
+            /* background-position: center center; */
         }
     }
 
     & [data-gallery="image-wrapper"] [data-gallery="image-title"] {
 
-        width: 100%;
+        width: 700px;
         height: 100%;
         position: absolute;
         font-size: 32px;
