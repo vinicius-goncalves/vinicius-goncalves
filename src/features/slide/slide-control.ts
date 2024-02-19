@@ -1,4 +1,4 @@
-const galleryImages = document.querySelectorAll('[data-gallery="image"]') as NodeListOf<HTMLImageElement>;
+const galleryImages = document.querySelectorAll('[data-gallery="image-wrapper"]') as NodeListOf<HTMLImageElement>;
 const refImage = galleryImages[0];
 
 let currIndex: number = 0;

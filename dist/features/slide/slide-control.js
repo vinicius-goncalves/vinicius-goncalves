@@ -1,4 +1,4 @@
-const galleryImages = document.querySelectorAll('[data-gallery="image"]');
+const galleryImages = document.querySelectorAll('[data-gallery="image-wrapper"]');
 const refImage = galleryImages[0];
 let currIndex = 0;
 const MAX_IMAGES = galleryImages.length;
