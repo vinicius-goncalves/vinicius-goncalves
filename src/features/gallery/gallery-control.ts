@@ -1,11 +1,11 @@
-const galleryImages = document.querySelectorAll('[data-gallery="image-wrapper"]') as NodeListOf<HTMLImageElement>;
-const refImage = galleryImages[0];
+import * as ImagesControl from './images-list.js';
 
 let currIndex: number = 0;
-const MAX_IMAGES: number = galleryImages.length;
+const MAX_IMAGES: number = ImagesControl.MAX_IMAGES_LENGTH;
 
 function getImageWidth(): number {
-    return refImage.offsetWidth ?? 0;
+    const refImage = document.querySelector('[data-gallery="image"]') as HTMLImageElement;
+    return refImage.offsetWidth;
 }
 
 function updateIndex(btnClicked: ('next' | 'prev')): number {

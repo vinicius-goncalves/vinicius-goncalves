@@ -5,7 +5,7 @@ interface ElementBuilder<T extends keyof HTMLElementTagNameMap> {
     setBuiltInAttribute<K extends keyof HTMLElementTagNameMap[T]>(name: K, value: string): ElementBuilder<T>;
     setCustomAttribute(name: string, value: string): ElementBuilder<T>;
     setStyle(style: Partial<CSSStyleDeclaration>): ElementBuilder<T>;
-    build(): HTMLElement;
+    build(): HTMLElementTagNameMap[T];
 }
 
 function buildElement<T extends keyof HTMLElementTagNameMap>(element: T): ElementBuilder<T> {
