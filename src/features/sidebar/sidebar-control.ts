@@ -1,4 +1,6 @@
-import('./observer.js')
+import('./observer.js');
+
+import updateTitle from '../../utils/update-title.js';
 
 const sidebarBtns = document.querySelectorAll('[data-sidebar-btn="wrapper"]') as NodeListOf<Element>;
 const sidebarWrapper = document.querySelector('[data-sidebar="wrapper"]') as HTMLDivElement;
@@ -66,6 +68,8 @@ const sidebarControl = {
         }
 
         sidebarAnchor.classList.add('active-section');
+        updateTitle(visibleSection.id)
+
     },
 
     close(): void {

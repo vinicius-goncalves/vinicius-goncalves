@@ -1,4 +1,5 @@
 import('./observer.js');
+import updateTitle from '../../utils/update-title.js';
 const sidebarBtns = document.querySelectorAll('[data-sidebar-btn="wrapper"]');
 const sidebarWrapper = document.querySelector('[data-sidebar="wrapper"]');
 const allSections = document.querySelectorAll('[id]');
@@ -42,6 +43,7 @@ const sidebarControl = {
             return;
         }
         sidebarAnchor.classList.add('active-section');
+        updateTitle(visibleSection.id);
     },
     close() {
         sidebarControl.setNewVisibility('hidden');

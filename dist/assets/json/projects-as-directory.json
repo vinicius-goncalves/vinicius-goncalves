@@ -9,8 +9,8 @@
                 "subFolder": [
                     {
                         "type": "File",
-                        "name": "quiz-answers-and-creations.js",
-                        "src": "https://github.com/vinicius-goncalves/quiz-answers-and-creations"
+                        "name": "quiz-creator.js",
+                        "src": "https://github.com/vinicius-goncalves/quiz-creator"
                     },
                     {
                         "type": "File",
@@ -54,6 +54,11 @@
                         "type": "File",
                         "name": "pagination.ts",
                         "src": "https://github.com/vinicius-goncalves/pagination"
+                    },
+                    {
+                        "type": "File",
+                        "name": "vanilla-modals.ts",
+                        "src": "https://github.com/vinicius-goncalves/vanilla-modals"
                     }
                 ]
             },

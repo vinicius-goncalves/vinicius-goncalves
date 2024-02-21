@@ -19,7 +19,7 @@ header[data-html-element="main-header"] {
     & [data-main-header="small-description"] {
 
         color: #6c6c6c;
-        font-size: .85rem;
+        font-size: .75rem;
 
         & [data-small-description="inline-folder"] {
             padding: 0 5px;
@@ -34,7 +34,7 @@ header[data-html-element="main-header"] {
             color: #0D0D0D;
 
             & [data-inline-folder="icon"] {
-                font-size: .9rem;
+                font-size: .75rem;
             }
 
             & [data-inline-folder="folder-name"] {
