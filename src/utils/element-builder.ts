@@ -64,7 +64,7 @@ function buildElement<T extends keyof HTMLElementTagNameMap>(element: T): Elemen
             return this;
         },
 
-        build(): HTMLElement {
+        build(): HTMLElementTagNameMap[T] {
             return el;
         }
     }
