@@ -25,15 +25,16 @@ Feel free to know me a little more.
   
   *Those are some of the tools and other technologies I work with:*
     
-  |    💻 languages                   |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    |  👨🏻‍💻 studying  |
-  | :------------------:              | :---------------: | :--------------------------------: | :---------------------: |  :-----------: |
-  |                                   |                   |                                    |                         |                |
-  | ![][javascript]                   | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |  ![][go]       |
-  | ![][html]                         | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |  ![][react]    |
-  | ![][css]                          | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |                |
-  | ![][typescript]                   | **-**             | ![][vue]                           | ![][postman]            |                |
-  | **-**                             | **-**             | ![][jwt]                           | ![][git]                |                |
-  | **-**                             | **-**             | **-**                              | ![][markdown]           |                |
+  |    💻 languages      |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    | 
+  | :------------------: | :---------------: | :--------------------------------: | :---------------------: |
+  |                      |                   |                                    |                         |
+  | ![][javascript]      | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
+  | ![][html]            | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |
+  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |
+  | ![][typescript]      | **-**             | ![][vue]                           | ![][postman]            |
+  | ![][go]              | **-**             | ![][jwt]                           | ![][git]                |
+  | **-**                | **-**             | ![][tailwind]                      | ![][markdown]           |
+  | **-**                | **-**             | ![][react]                         | **-**                   |
   
 </div>
 
@@ -81,6 +82,7 @@ Feel free to know me a little more.
 [jwt]: <https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=jsonwebtokens&logoColor=#000000> "JWT"
 [vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=#4FC08D> "Vue"
 [react]: <https://img.shields.io/badge/React-323330?style=for-the-badge&logo=React> "React"
+[tailwind]: <https://img.shields.io/badge/Tailwind-323330?style=for-the-badge&logo=TailwindCSS> "Tailwind"
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
