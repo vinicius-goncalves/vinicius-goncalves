@@ -12,16 +12,16 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages      |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    | 
-  | :------------------: | :---------------: | :--------------------------------: | :---------------------: |
-  |                      |                   |                                    |                         |
-  | ![][javascript]      | ![][mongodb]      | ![][mongoose]                      | ![][visual-studio-code] |
-  | ![][html]            | ![][nodejs]       | ![][firebase]                      | ![][mysql-workbench]    |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |
-  | ![][typescript]      | **-**             | ![][vue]                           | ![][postman]            |
-  | ![][go]              | **-**             | ![][jwt]                           | ![][git]                |
-  | **-**                | **-**             | ![][tailwind]                      | ![][markdown]           |
-  | **-**                | **-**             | ![][react]                         | **-**                   |
+  |    💻 languages      |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |
+  | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: |
+  |                      |                   |                                    |                         |                     |
+  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             |
+  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            |
+  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    |                     |
+  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            |                     |
+  | **-**                | **-**             | ![][firebase]                      | ![][git]                |                     |
+  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           |                     |
+  | **-**                | **-**             | **-**                              | **-**                   |                     |
 
 </div>
 
@@ -86,7 +86,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
-[visual-studio-code]: <https://img.shields.io/badge/Visual_Studio_Code-323330?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4> "Visual Studio Code"
+[visual-studio-code]: <https://img.shields.io/badge/Visual_Studio_Code-323330?style=for-the-badge&logo=v&logoColor=0078D4> "Visual Studio Code"
 [git]: <https://img.shields.io/badge/Git-323330?style=for-the-badge&logo=git> "Git"
 [mysql-workbench]: <https://img.shields.io/badge/MySQL_Workbench-323330?style=for-the-badge&logo=mysql> "MySQL Workbench"
 [postman]: <https://img.shields.io/badge/Postman-323330?style=for-the-badge&logo=postman&logoColor=#FF6C37> "Postman"
