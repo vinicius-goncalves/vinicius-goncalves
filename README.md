@@ -1,29 +1,16 @@
 # 👋 Hello! Welcome!
-Feel free to know me a little more.
+Welcome to my Github profile! Feel free to know me a little more.
 
 ## ✨ Sections
-- [About me](#about-me)
 - [Skills and Tools](#skills-and-tools)
-- [More about me](#more-about-me)
-- [Other status](#other-status)
-
-## 🙋‍♂️ About Me
-<div id="about-me" align="center">
-  <p align="left">
-    My name is <strong>Vinícius</strong> and I'm a developer there are more than 6 years, studying Software Engineering. Everything started when I knew Minecraft Servers and then I started to create plugins for it with the Java language.
-  </p>
-  
-  ### --{ An overview of my profile }--
-  
-  ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark)
-  
-</div>
+- [About me](#about-me)
+- [Useful links about me](#my-links)
 
 ## 👨‍💻 Skills and Tools
   
 <div id="skills-and-tools" align="center">
   
-  *Those are some of the tools and other technologies I work with:*
+**Those are some of the tools and other technologies I work with:**
     
   |    💻 languages      |   🎲 server-side  |     📚 libraries & frameworks      |    🔨 tools & other    | 
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: |
@@ -35,24 +22,28 @@ Feel free to know me a little more.
   | ![][go]              | **-**             | ![][jwt]                           | ![][git]                |
   | **-**                | **-**             | ![][tailwind]                      | ![][markdown]           |
   | **-**                | **-**             | ![][react]                         | **-**                   |
-  
+
 </div>
 
-## 👨‍🔧 More about me
-<div id="more-about-me">
-  <p>
-    I'm studying Software Engineering. I started learning JavaScript about two years ago, and I went deeper and deeper into it - today, I'm getting deeper and deeper with TypeScript and Java, but JavaScript continues to be my favorite language of all.
+<br/>
+
+## 🙋‍♂️ About Me
+<div id="about-me" align="center">
+  <p align="left">
+    Now that you know my stack, how did it all start? First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language.
   </p>
 </div>
 
-## 👁 Other status
-<div id="other-status" align="center">
-  
-  ### --{ Most used languages and frameworks }--
-    
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
+## 🔗 Useful links about me
+<div id="my-links">
 
-  [My personal website](https://vinicius-goncalves.com)
+  <p>Take a closer look at useful links about me, and other things what I do.</p>
+
+  | Link | Redirect to |
+  | :---- | :------- |
+  | [vinicius-goncalves.com][0] | My personal website |
+  | [withgoogle.vinicius-goncalves.com][1] | My profile on Google Product Experts Program |
+  | [linktree-expert.vinicius-goncalves.com][2] | My profile on Linktree with details about my participation in Google Product Experts Program |
   
 </div>
 
@@ -94,3 +85,20 @@ Feel free to know me a little more.
 [comment]: # (tools-badges)
 
 [comment]: # (badge-references)
+
+[comment]: # (links)
+[0]: <https://vinicius-goncalves.com> "Personal website"
+[1]: <https://withgoogle.vinicius-goncalves.com> "@expertvinicius Google Product Experts Program Profile"
+[2]: <https://linktree-expert.vinicius-goncalves.com> "Linktree @expertvinicius"
+[comment]: # (links)
+
+[comment]: # (useful-templates)
+
+  <!-- ### --{ An overview of my profile }--
+  ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark) -->
+
+  <!-- 
+  	[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats)
+  -->
+  
+[comment]: # (useful-templates)
