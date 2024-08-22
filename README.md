@@ -43,9 +43,18 @@ Welcome to my Github profile! Feel free to know me a little more.
   | :---- | :------- |
   | [vinicius-goncalves.com][0] | My personal website |
   | [withgoogle.vinicius-goncalves.com][1] | My profile on Google Product Experts Program |
-  | [linktree-expert.vinicius-goncalves.com][2] | My profile on Linktree with details about my participation in Google Product Experts Program |
+  | [https://linktr.ee/expertvinicius][2] | My profile on Linktree with details about my participation on Google Product Experts Program |
   
 </div>
+
+<br />
+
+<div align="center">   
+<p>Thanks for reading 💖</p>
+<p>www.vinicius-goncalves.com</p>
+</div>
+
+<br />
 
 [comment]: # (badge-references)
 
@@ -89,7 +98,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [comment]: # (links)
 [0]: <https://vinicius-goncalves.com> "Personal website"
 [1]: <https://withgoogle.vinicius-goncalves.com> "@expertvinicius Google Product Experts Program Profile"
-[2]: <https://linktree-expert.vinicius-goncalves.com> "Linktree @expertvinicius"
+[2]: <https://linktr.ee/expertvinicius> "Linktree @expertvinicius"
 [comment]: # (links)
 
 [comment]: # (useful-templates)
