@@ -37,7 +37,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## 🔗 Useful links about me
 <div id="my-links">
 
-  <p>Take a closer look at useful links about me, and other things what I do.</p>
+  <p>Take a closer look at useful links about me.</p>
 
   | Link | Redirect to |
   | :---- | :------- |
