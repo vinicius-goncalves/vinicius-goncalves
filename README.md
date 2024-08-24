@@ -28,7 +28,7 @@ Welcome to my Github profile! Feel free to know me a little more.
   | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            |                     |
   | **-**                | **-**             | ![][firebase]                      | ![][git]                |                     |
   | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           |                     |
-  | **-**                | **-**             | ![][reduxjs]                         | **-**                   |                     |
+  | **-**                | **-**             | ![][redux]                         | **-**                   |                     |
 
 </div>
 
