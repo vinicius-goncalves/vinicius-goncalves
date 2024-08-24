@@ -64,6 +64,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [css]: <https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=007ACC> "CSS"
 [markdown]: <https://img.shields.io/badge/Markdown-323330?style=for-the-badge&logo=markdown&logoColor=#FF6C37>
 [typescript]: <https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=3077C5> "TypeScript"
+[java]: <https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=openjdk> "Java"
 [comment]: # (client-side-badges)
 
 [comment]: # (server-side-badges)
