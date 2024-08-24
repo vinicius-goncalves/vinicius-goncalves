@@ -83,7 +83,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=#4FC08D> "Vue"
 [react]: <https://img.shields.io/badge/React-323330?style=for-the-badge&logo=React> "React"
 [tailwind]: <https://img.shields.io/badge/Tailwind-323330?style=for-the-badge&logo=TailwindCSS> "Tailwind"
-[reduxjs]: <https://img.shields.io/badge/Redux-323330?style=for-the-badge&logo=redux&logoColor=764ABC> "Redux"
+[redux]: <https://img.shields.io/badge/Redux-323330?style=for-the-badge&logo=redux&logoColor=764ABC> "Redux"
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
