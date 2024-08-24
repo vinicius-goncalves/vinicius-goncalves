@@ -2,9 +2,16 @@
 Welcome to my Github profile! Feel free to know me a little more.
 
 ## ✨ Sections
-- [Skills and Tools](#skills-and-tools)
 - [About me](#about-me)
+- [Skills and Tools](#skills-and-tools)
 - [Useful links about me](#my-links)
+
+## 🙋‍♂️ About Me
+<div id="about-me" align="center">
+  <p align="left">
+    First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language.
+  </p>
+</div>
 
 ## 👨‍💻 Skills and Tools
   
@@ -26,13 +33,6 @@ Welcome to my Github profile! Feel free to know me a little more.
 </div>
 
 <br/>
-
-## 🙋‍♂️ About Me
-<div id="about-me" align="center">
-  <p align="left">
-    Now that you know my stack, how did it all start? First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language.
-  </p>
-</div>
 
 ## 🔗 Useful links about me
 <div id="my-links">
