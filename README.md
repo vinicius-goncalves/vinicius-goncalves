@@ -42,6 +42,7 @@ Welcome to my Github profile! Feel free to know me a little more.
   | Link | Redirect to |
   | :---- | :------- |
   | [vinicius-goncalves.com][0] | My personal website |
+  | [github.com/vinicius-goncalves/projects][3] | All my projects organized |
   | [withgoogle.vinicius-goncalves.com][1] | My profile on Google Product Experts Program |
   | [https://linktr.ee/expertvinicius][2] | My profile on Linktree with details about my participation on Google Product Experts Program |
   
@@ -101,6 +102,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [0]: <https://vinicius-goncalves.com> "Personal website"
 [1]: <https://withgoogle.vinicius-goncalves.com> "@expertvinicius Google Product Experts Program Profile"
 [2]: <https://linktr.ee/expertvinicius> "Linktree @expertvinicius"
+[3]: <https://github.com/vinicius-goncalves/projects> "Projects"
 [comment]: # (links)
 
 [comment]: # (useful-templates)
