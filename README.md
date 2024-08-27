@@ -19,7 +19,7 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages      |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |
+  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: |
   |                      |                   |                                    |                         |                     |
   | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             |
@@ -40,7 +40,7 @@ Welcome to my Github profile! Feel free to know me a little more.
   <p>Take a closer look at useful links about me.</p>
 
   | Link | Redirect to |
-  | :---- | :------- |
+  | ---- | ----------- |
   | [vinicius-goncalves.com][0] | My personal website |
   | [projects.vinicius-goncalves.com][3] | All my projects organized |
   | [withgoogle.vinicius-goncalves.com][1] | My profile on Google Product Experts Program |
