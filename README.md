@@ -19,16 +19,16 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |
-  | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: |
-  |                      |                   |                                    |                         |                     |
-  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             |
-  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               |
-  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               |
-  | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               |
-  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               |
-  | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               |
+  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |  👨‍💻 learning  |
+  | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :----------: |
+  |                      |                   |                                    |                         |                     |              |
+  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             | ![][angular] |
+  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | **-**        |
+  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**        |
+  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**        |
+  | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**        |
+  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**        |
+  | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**        |
 
 </div>
 
@@ -86,6 +86,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [react]: <https://img.shields.io/badge/React-323330?style=for-the-badge&logo=React> "React"
 [tailwind]: <https://img.shields.io/badge/Tailwind-323330?style=for-the-badge&logo=TailwindCSS> "Tailwind"
 [redux]: <https://img.shields.io/badge/Redux-323330?style=for-the-badge&logo=redux&logoColor=764ABC> "Redux"
+[angular]: <https://img.shields.io/badge/Angular-323330?style=for-the-badge&logo=angular&logoColor=764ABC> "Angular"
 [comment]: # (libraries-badges)
 
 [comment]: # (tools-badges)
