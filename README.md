@@ -23,7 +23,7 @@ Welcome to my Github profile! Feel free to know me a little more.
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :----------: |
   |                      |                   |                                    |                         |                     |              |
   | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             | ![][angular] |
-  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | **-**        |
+  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | ![][docker]  |
   | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**        |
   | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**        |
   | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**        |
@@ -95,6 +95,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 [mysql-workbench]: <https://img.shields.io/badge/MySQL_Workbench-323330?style=for-the-badge&logo=mysql> "MySQL Workbench"
 [postman]: <https://img.shields.io/badge/Postman-323330?style=for-the-badge&logo=postman&logoColor=#FF6C37> "Postman"
 [mongodb-compass]: <https://img.shields.io/badge/MongoDB_Compass-323330?style=for-the-badge&logo=mongodb&logoColor=4EA94B> "MongoDB Compass"
+[docker]: <https://img.shields.io/badge/Docker-323330?style=for-the-badge&logo=docker> "Docker"
 [comment]: # (tools-badges)
 
 [comment]: # (badge-references)
