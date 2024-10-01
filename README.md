@@ -23,11 +23,11 @@ Welcome to my Github profile! Feel free to know me a little more.
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
   |                      |                   |                                    |                         |                     |                  |
   | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][angular]     |
-  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | **-**               | ![][docker]      |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
-  | ![][typescript]      | ![][go]           | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
-  | **-**                | ![][java]         | ![][firebase]                      | ![][git]                | **-**               | **-**            |
-  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
+  | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | **-**               | ![][docker]      |
+  | ![][go]              | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
+  | ![][java]            | ![][go]           | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
+  | ![][html]            | ![][java]         | ![][firebase]                      | ![][git]                | **-**               | **-**            |
+  | ![][css]             | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
   | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**            |
 
 </div>
