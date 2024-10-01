@@ -9,7 +9,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## 🙋‍♂️ About Me
 <div id="about-me" align="center">
   <p align="left">
-    First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language.
+    First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language. In the last months, I've studying back-end tecnologies to become a full-stack dev.
   </p>
 </div>
 
@@ -19,14 +19,14 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |  👨‍💻 going deeper  |
+  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 going deeper  |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
   |                      |                   |                                    |                         |                     |                  |
-  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             | ![][angular]     |
-  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | ![][docker]      |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | ![][java]           | **-**            |
-  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
-  | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**            |
+  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][angular]     |
+  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | **-**               | ![][docker]      |
+  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
+  | ![][typescript]      | ![][go]           | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
+  | **-**                | ![][java]         | ![][firebase]                      | ![][git]                | **-**               | **-**            |
   | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
   | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**            |
 
