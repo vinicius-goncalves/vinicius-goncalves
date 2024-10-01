@@ -19,16 +19,16 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |  👨‍💻 learning  |
-  | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :----------: |
-  |                      |                   |                                    |                         |                     |              |
-  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             | ![][angular] |
-  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | ![][docker]  |
-  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**        |
-  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**        |
-  | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**        |
-  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**        |
-  | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**        |
+  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past |  👨‍💻 going deeper  |
+  | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
+  |                      |                   |                                    |                         |                     |                  |
+  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][go]             | ![][angular]     |
+  | ![][html]            | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][vue]            | ![][docker]      |
+  | ![][css]             | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | ![][java]           | **-**            |
+  | ![][typescript]      | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
+  | **-**                | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**            |
+  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
+  | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**            |
 
 </div>
 
