@@ -25,10 +25,10 @@ Welcome to my Github profile! Feel free to know me a little more.
   | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][angular]     |
   | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][go]             | ![][docker]      |
   | ![][java]            | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
-  | ![][html]            | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
+  | ![][html]            | **-**             | ![][redux]                         | ![][postman]            | **-**               | **-**            |
   | ![][css]             | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**            |
   | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
-  | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**            |
+  | **-**                | **-**             | **-**                              | **-**                   | **-**               | **-**            |
 
 </div>
 
