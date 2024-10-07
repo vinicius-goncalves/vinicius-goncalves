@@ -19,15 +19,15 @@ Welcome to my Github profile! Feel free to know me a little more.
   
 **Those are some of the tools and other technologies I work with:**
     
-  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 going deeper  |
+  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 going deeper |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
   |                      |                   |                                    |                         |                     |                  |
   | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][angular]     |
-  | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | **-**               | ![][docker]      |
-  | ![][go]              | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
-  | ![][java]            | ![][go]           | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
-  | ![][html]            | ![][java]         | ![][firebase]                      | ![][git]                | **-**               | **-**            |
-  | ![][css]             | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
+  | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][go]             | ![][docker]      |
+  | ![][java]            | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
+  | ![][html]            | **-**             | ![][jwt]                           | ![][postman]            | **-**               | **-**            |
+  | ![][css]             | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**            |
+  | **-**                | **-**             | ![][mongoose]                      | ![][markdown]           | **-**               | **-**            |
   | **-**                | **-**             | ![][redux]                         | **-**                   | **-**               | **-**            |
 
 </div>
