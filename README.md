@@ -9,7 +9,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## 🙋‍♂️ About Me
 <div id="about-me" align="center">
   <p align="left">
-    First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language. In the last months, I've studying back-end tecnologies to become a full-stack dev.
+    First of all, my name is <strong>Vinícius Gonçalves</strong>, a developer for 5+ years, studying Software Engineering. I started creating Minecraft plugins and servers using Java language. I stopped for a while and started again, but this time I went deeper and deeper into software development with JavaScript language. In the last months, I've been studying back-end tecnologies to become a full-stack dev.
   </p>
 </div>
 
