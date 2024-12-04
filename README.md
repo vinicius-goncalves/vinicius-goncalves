@@ -4,6 +4,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## ✨ Sections
 - [About me](#about-me)
 - [Skills and Tools](#skills-and-tools)
+- [Profile Status](#profile-status)
 - [Useful links about me](#my-links)
 
 ## 🙋‍♂️ About Me
@@ -14,10 +15,10 @@ Welcome to my Github profile! Feel free to know me a little more.
 </div>
 
 ## 👨‍💻 Skills and Tools
+Those are some of the tools and other technologies I work with:
   
 <div id="skills-and-tools" align="center">
-  
-**Those are some of the tools and other technologies I work with:**
+
     
   |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 going deeper |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
@@ -33,6 +34,19 @@ Welcome to my Github profile! Feel free to know me a little more.
 </div>
 
 <br/>
+
+## 📊 Profile Status
+My overview and most used languages in the past projects
+
+<div align="center" id="profile-status">
+
+| Overview | Top Languages |
+| -------- | ------------- |
+| ![](https://github-readme-stats.vercel.app/api?username=vinicius-goncalves&show_icons=true&theme=github_dark) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinicius-goncalves&layout=compact&theme=github_dark)](https://github.com/vinicius-goncalves/github-readme-stats) |
+
+<br/>
+
+</div>
 
 ## 🔗 Useful links about me
 <div id="my-links">
