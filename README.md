@@ -18,7 +18,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## 🌻 Nowadays
 <div id="about-me" align="center">
   <p align="left">
-    Nowadays, I've been studying Kotlin, for multi-plataform development purposes, and NextJS for web development. 
+    Nowadays, I've been studying Kotlin, for general development purposes, and NextJS for web development. 
   </p>
 </div>
 
