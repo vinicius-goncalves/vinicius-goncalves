@@ -4,6 +4,7 @@ Welcome to my Github profile! Feel free to know me a little more.
 ## ✨ Sections
 - [About me](#about-me)
 - [Skills and Tools](#skills-and-tools)
+- [Nowadays](#nowadays)
 - [Profile Status](#profile-status)
 - [Useful links about me](#my-links)
 
@@ -14,17 +15,42 @@ Welcome to my Github profile! Feel free to know me a little more.
   </p>
 </div>
 
-## 👨‍💻 Skills and Tools
-Those are some of the tools and other technologies I work with:
-  
+## 🌻 Nowadays
+<div id="about-me" align="center">
+  <p align="left">
+    Nowadays, I've been studying Kotlin, for multi-plataform development purposes, and NextJS for web development. 
+  </p>
+</div>
+
+## 👨‍💻 Languages and tools
 <div id="skills-and-tools" align="center">
 
+## Main Table
+Main technologies I work with
     
-  |    💻 languages     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 going deeper |
+  |    💻 languages     |    📚 libraries/frameworks/other  |   👨‍💻 i'm learning   |  
+  | :------------------: | :-------------------------------: | :-----------------: |
+  |                      |                                   |                     |                            
+  | ![][javascript]      | ![][tailwind]                     | ![][nextjs]         |
+  | ![][typescript]      | ![][react-native]                 | ![][kotlin]         |
+  | **-**                | ![][react]                        | **-**               |
+  | **-**                | ![][nodejs]                       | **-**               |
+  | **-**                | ![][expo]                         | **-**               |
+  | **-**                | **-**                             | **-**               |
+  | **-**                | **-**                             | **-**               |
+
+</div>
+
+<div id="skills-and-tools" align="center">
+
+## Secondary Table
+Some other technologies I used/worked in the past and/or I don't use much by now
+    
+  |    💻 tecnologies     |   🎲 server-side  |     📚 libraries & frameworks     |    🔨 tools & other    | 🚀 used in the past  |  👨‍💻 learning    |
   | :------------------: | :---------------: | :--------------------------------: | :---------------------: | :-----------------: | :--------------: |
   |                      |                   |                                    |                         |                     |                  |
-  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][angular]     |
-  | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][go]             | ![][docker]      |
+  | ![][javascript]      | ![][mongodb]      | ![][react]                         | ![][visual-studio-code] | ![][vue]            | ![][kotlin]      |
+  | ![][typescript]      | ![][nodejs]       | ![][tailwind]                      | ![][mysql-workbench]    | ![][go]             | ![][nextjs]      |
   | ![][java]            | ![][mysql]        | ![][express]                       | ![][mongodb-compass]    | **-**               | **-**            |
   | ![][html]            | **-**             | ![][redux]                         | ![][postman]            | **-**               | **-**            |
   | ![][css]             | **-**             | ![][firebase]                      | ![][git]                | **-**               | **-**            |
@@ -79,7 +105,7 @@ My overview and most used languages in the past projects
 [css]: <https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=007ACC> "CSS"
 [markdown]: <https://img.shields.io/badge/Markdown-323330?style=for-the-badge&logo=markdown&logoColor=#FF6C37>
 [typescript]: <https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=3077C5> "TypeScript"
-[java]: <https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=openjdk> "Java"
+[nextjs]: <https://img.shields.io/badge/NextJS-323330?style=for-the-badge&logo=next.js> "NextJS"
 [comment]: # (client-side-badges)
 
 [comment]: # (server-side-badges)
@@ -89,6 +115,7 @@ My overview and most used languages in the past projects
 [java]: <https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=openjdk&logoColor=437291> "Java"
 [nodejs]: <https://img.shields.io/badge/Node.js-323330?style=for-the-badge&logo=node.js> "NodeJS"
 [go]: <https://img.shields.io/badge/Go-323330?style=for-the-badge&logo=go> "Go"
+[kotlin]: <https://img.shields.io/badge/Kotlin-323330?style=for-the-badge&logo=kotlin> "Kotlin"
 [comment]: # (server-side-badges)
 
 [comment]: # (libraries-badges)
@@ -98,6 +125,7 @@ My overview and most used languages in the past projects
 [jwt]: <https://img.shields.io/badge/JWT-323330?style=for-the-badge&logo=jsonwebtokens&logoColor=#000000> "JWT"
 [vue]: <https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=vue.js&logoColor=#4FC08D> "Vue"
 [react]: <https://img.shields.io/badge/React-323330?style=for-the-badge&logo=React> "React"
+[react-native]: <https://img.shields.io/badge/React Native-323330?style=for-the-badge&logo=React> "React Native"
 [tailwind]: <https://img.shields.io/badge/Tailwind-323330?style=for-the-badge&logo=TailwindCSS> "Tailwind"
 [redux]: <https://img.shields.io/badge/Redux-323330?style=for-the-badge&logo=redux&logoColor=764ABC> "Redux"
 [angular]: <https://img.shields.io/badge/Angular-323330?style=for-the-badge&logo=angular&logoColor=764ABC> "Angular"
@@ -110,6 +138,7 @@ My overview and most used languages in the past projects
 [postman]: <https://img.shields.io/badge/Postman-323330?style=for-the-badge&logo=postman&logoColor=#FF6C37> "Postman"
 [mongodb-compass]: <https://img.shields.io/badge/MongoDB_Compass-323330?style=for-the-badge&logo=mongodb&logoColor=4EA94B> "MongoDB Compass"
 [docker]: <https://img.shields.io/badge/Docker-323330?style=for-the-badge&logo=docker> "Docker"
+[expo]: <https://img.shields.io/badge/Expo-323330?style=for-the-badge&logo=expo> "Expo"
 [comment]: # (tools-badges)
 
 [comment]: # (badge-references)
