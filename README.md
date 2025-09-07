@@ -97,6 +97,12 @@ My overview and most used languages in the past projects
 
 <br />
 
+<div align="center" color="gray">
+  
+  I believe in the **"JavaScript Word Theory"**: For each word that exists, there will be a JS library using it.
+
+</div>
+
 [comment]: # (badge-references)
 
 [comment]: # (client-side-badges)
@@ -160,3 +166,4 @@ My overview and most used languages in the past projects
   -->
   
 [comment]: # (useful-templates)
+
