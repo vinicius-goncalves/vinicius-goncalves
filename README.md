@@ -85,7 +85,6 @@ My overview and most used languages in the past projects
   | ---- | ----------- |
   | [vinicius-goncalves.com][0] | My personal website |
   | [projects.vinicius-goncalves.com][3] | All my projects organized |
-  | [withgoogle.vinicius-goncalves.com][1] | My profile on Google Product Experts Program |
   | [https://linktr.ee/expertvinicius][2] | My profile on Linktree with details about my participation on Google Product Experts Program |
   
 </div>
@@ -153,7 +152,6 @@ My overview and most used languages in the past projects
 
 [comment]: # (links)
 [0]: <https://vinicius-goncalves.com> "Personal website"
-[1]: <https://withgoogle.vinicius-goncalves.com> "@expertvinicius Google Product Experts Program Profile"
 [2]: <https://linktr.ee/expertvinicius> "Linktree @expertvinicius"
 [3]: <https://projects.vinicius-goncalves.com> "Projects"
 [comment]: # (links)
@@ -168,5 +166,6 @@ My overview and most used languages in the past projects
   -->
   
 [comment]: # (useful-templates)
+
 
 
