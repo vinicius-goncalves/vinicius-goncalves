@@ -1,4 +1,6 @@
 # 👋 Hello! Welcome!
+<i><small>@vncds stands for "vinicius.codes", that's my domain :)</small></i>
+
 Welcome to my Github profile! Feel free to know me a little more.
 
 ## ✨ Sections
@@ -166,4 +168,5 @@ My overview and most used languages in the past projects
   -->
   
 [comment]: # (useful-templates)
+
 
