@@ -1,5 +1,5 @@
 # 👋 Hello! Welcome!
-<i><small>@vvncscds stands for "vinicius.codes", that's my domain :)</small></i>
+<i><small>@vncscds stands for "vinicius.codes", that's my domain :)</small></i>
 
 Welcome to my Github profile! Feel free to know me a little more.
 
@@ -166,6 +166,7 @@ My overview and most used languages in the past projects
   -->
   
 [comment]: # (useful-templates)
+
 
 
 
