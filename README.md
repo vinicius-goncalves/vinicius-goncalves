@@ -1,6 +1,4 @@
 # 👋 Hello! Welcome!
-<i><small>@vncscds stands for "vinicius.codes", that's my domain :)</small></i>
-
 Welcome to my Github profile! Feel free to know me a little more.
 
 ## ✨ Sections
